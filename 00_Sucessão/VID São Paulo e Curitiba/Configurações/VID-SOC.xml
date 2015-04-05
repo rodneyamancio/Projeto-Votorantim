@@ -1,0 +1,232 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<OrgChartConfig>
+  <view>regular</view>
+  <maxwidth>905</maxwidth>
+  <gradientOption index="1" key="riskOfLoss">
+    <type>namegradient</type>
+    <label lang="pt_BR">Risco de Perda</label>
+    <label lang="en_US">Risk of Loss</label>
+    <gradientset>
+      <gradient>
+        <label lang="pt_BR">Baixo</label>
+        <label lang="en_US">Low</label>
+        <value>1.0</value>
+        <index>1</index>
+      </gradient>
+      <gradient>
+        <label lang="pt_BR">Médio</label>
+        <label lang="en_US">Medium</label>
+        <value>2.0</value>
+        <index>2</index>
+      </gradient>
+      <gradient>
+        <label lang="pt_BR">Alto</label>
+        <label lang="en_US">High</label>
+        <value>3.0</value>
+        <index>3</index>
+      </gradient>
+    </gradientset>
+  </gradientOption>
+  <iconSetOption index="4" key="impactOfLoss">
+    <type>iconset</type>
+    <label lang="pt_BR">Impacto de Perda</label>
+    <label lang="en_US">Impact of Loss</label>
+    <iconset>
+      <icon>
+        <image>flag_red</image>
+        <label lang="pt_BR">Alto</label>
+        <label lang="en_US">High</label>
+        <value>3.0</value>
+      </icon>
+      <icon>
+        <image>flag_yellow</image>
+        <label lang="pt_BR">Médio</label>
+        <label lang="en_US">Medium</label>
+        <value>2.0</value>
+      </icon>
+      <icon>
+        <image>flag_green</image>
+        <label lang="pt_BR">Baixo</label>
+        <label lang="en_US">Low</label>
+        <value>1.0</value>
+      </icon>
+    </iconset>
+  </iconSetOption>
+    <iconSetOption index="7" key="minority">
+    <type>iconset</type>
+    <label>Critical know-how</label>
+    <label lang="pt_BR">KH Crítico</label>
+    <label lang="en_US">Critical KH</label>
+    <label lang="fr_FR">Collaobrateur clé</label>
+    <label lang="de_DE">Zukünftiger Manager</label>
+    <label lang="zh_CN">未来的领导人</label>
+    <label lang="ja_JP">将来のリーダー</label>
+    <iconset>
+      <icon>
+        <image>component_red</image>
+        <label>Yes</label>
+        <label lang="pt_BR">Sim</label>
+        <label lang="fr_FR">Oui</label>
+        <label lang="de_DE">Ja</label>
+        <label lang="zh_CN">是</label>
+        <label lang="ja_JP">はい</label>
+        <value>true</value>
+      </icon>
+      <!--<icon>
+        <image></image>
+        <label>No</label>
+        <value>false</value>
+      </icon>-->
+    </iconset>
+  </iconSetOption>
+  <iconSetOption index="8" key="level">
+    <type>iconset</type>
+    <label>Ocupante Posição Desenvolvimento</label>
+    <label lang="pt_BR">Pos Desenv.</label>
+    <label lang="en_US">Pos Desenv.</label>
+    <label lang="fr_FR">Collaobrateur clé</label>
+    <label lang="de_DE">Zukünftiger Manager</label>
+    <label lang="zh_CN">未来的领导人</label>
+    <label lang="ja_JP">将来のリーダー</label>
+    <iconset>
+      <icon>
+        <image>cube_yellow</image>
+        <label>Yes</label>
+        <label lang="pt_BR">Sim</label>
+        <label lang="fr_FR">Oui</label>
+        <label lang="de_DE">Ja</label>
+        <label lang="zh_CN">是</label>
+        <label lang="ja_JP">はい</label>
+        <value>true</value>
+      </icon>
+      <!--<icon>
+        <image></image>
+        <label>No</label>
+        <value>false</value>
+      </icon>-->
+    </iconset>
+  </iconSetOption>
+  <iconSetOption index="9" key="futureLeader">
+    <type>iconset</type>
+    <label>Future Leader</label>
+    <label lang="pt_BR">Aposta</label>
+    <label lang="en_US">Future Leader</label>
+    <label lang="fr_FR">Collaobrateur clé</label>
+    <label lang="de_DE">Zukünftiger Manager</label>
+    <label lang="zh_CN">未来的领导人</label>
+    <label lang="ja_JP">将来のリーダー</label>
+    <iconset>
+      <icon>
+        <image>pawn_darkblue</image>
+        <label>Yes</label>
+        <label lang="pt_BR">Sim</label>
+        <label lang="fr_FR">Oui</label>
+        <label lang="de_DE">Ja</label>
+        <label lang="zh_CN">是</label>
+        <label lang="ja_JP">はい</label>
+        <value>true</value>
+      </icon>
+      <!--<icon>
+        <image></image>
+        <label>No</label>
+        <value>false</value>
+      </icon>-->
+    </iconset>
+  </iconSetOption>
+  <option key="1">
+    <type>successors</type>
+    <label lang="pt_BR">Sucessores</label>
+    <label lang="en_US">Successors</label>
+  </option>
+  <!--<textOption index="1" key="talentPool">
+    <type>string</type>
+    <label>Talent Pool</label>
+    <shortlabel>Pool:</shortlabel>
+  </textOption>-->
+  <textOption index="1" key="performance">
+    <type>string</type>
+    <label lang="pt_BR">Desempenho</label>
+    <label lang="en_US">Performance</label>
+    <shortlabel>Perf:</shortlabel>
+  </textOption>
+  <textOption index="2" key="potential">
+    <type>string</type>
+    <label lang="pt_BR">Perspectiva de Evolução</label>
+    <label lang="en_US">Perspective of Evolution</label>
+    <shortlabel>POE:</shortlabel>
+  </textOption>
+  <textOption index="3" key="matrix1label" target="both">
+    <type>string</type>
+    <label>9 Box Placement</label>
+    <label lang="pt_BR">Posição no 9-box</label>
+    <label lang="en_US">9 Box Placement</label>
+    <shortlabel>9 Box</shortlabel>
+  </textOption>
+<textOption index="4" key="dateOfPosition">
+    <type>string</type>
+    <label>Date of Current Position</label>
+    <label lang="pt_BR">Na posição desde</label>
+    <label lang="en_US">Date of Current Position</label>
+    <label lang="fr_FR">En poste depuis</label>
+    <label lang="de_DE">In Position seit</label>
+    <label lang="zh_CN">当前位置的日期</label>
+    <label lang="ja_JP">現在位置の日付</label>
+    <shortlabel>In Pos since:</shortlabel>
+    <shortlabel lang="en_US">In Pos since:</shortlabel>
+    <shortlabel lang="pt_BR">Pos. desde:</shortlabel>
+    <shortlabel lang="de_DE">Pos. seit:</shortlabel>
+    <shortlabel lang="zh_CN">状况自:</shortlabel>
+    <shortlabel lang="ja_JP">以来、位置に:</shortlabel>
+  </textOption>
+<gradientOption index="11" key="readiness">
+    <type>readiness</type>
+    <label lang="pt_BR">Prontidão</label>
+    <label lang="en_US">Readiness</label>
+    <gradientset>
+      <gradient>
+        <label lang="pt_BR">Plano de Contingência</label>
+        <label lang="en_US">Contingency Plan</label>
+        <value>5.0</value>
+        <index>7</index>
+      </gradient>
+      <gradient>
+        <label lang="pt_BR">Prontidão Imediata</label>
+        <label lang="en_US">Ready Now</label>
+        <value>4.0</value>
+        <index>4</index>
+      </gradient>
+      <gradient>
+        <label lang="pt_BR">Curto Prazo (Até 2 anos)</label>
+        <label lang="en_US">Short Term (up to 2 years)</label>
+        <value>3.0</value>
+        <index>1</index>
+      </gradient>
+      <gradient>
+        <label lang="pt_BR">Médio Prazo (de 3 a 4 anos)</label>
+        <label lang="en_US">Medium Term (3-4 years)</label>
+        <value>2.0</value>
+        <index>2</index>
+      </gradient>
+      <gradient>
+        <label lang="pt_BR">Longo Prazo (5 anos ou mais)</label>
+        <label lang="en_US">Long Term (Above 5 years)</label>
+        <value>1.0</value>
+        <index>3</index>
+      </gradient>
+    </gradientset>
+  </gradientOption>
+  <keyPositionOption indicator="boolean" key="">
+<label>Highlight key positions</label>
+<label lang="en_US">Highlight key positions</label>
+<label lang="pt_BR">Destacar posições críticas</label>
+<label lang="fr_FR">Postes clés</label>
+<label lang="de_DE">Schlüsselposition</label>
+<label lang="zh_CN">突出关键岗位</label>
+<label lang="ja_JP">キーの位置をハイライト表示</label>
+<keypositionset/>
+</keyPositionOption>
+  <SMFormId>4</SMFormId>
+</OrgChartConfig>
+
+
+

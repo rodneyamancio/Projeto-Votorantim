@@ -1,0 +1,479 @@
+﻿label_key,default,ar_SA,en_DEBUG,en_GB,en_US,es_ES,fr_FR,pt_BR,tr_TR,zh_CN
+SecPDI,en_US,,"IDP - Individual Development Plan",,"IDP - Individual Development Plan","IDP - Plan Individual de Desarrollo","IDP - Plan de développement individuel","PDI - Plano de Desenvolvimento Individual","IDP - Bireysel Gelişim Planı",
+SecAvaliacao,en_US,,"Assessment",,"Assessment","Evaluación","Évaluation","Avaliação","Değerlendirme",
+IntroPDI,en_US,,"<style>.tableHeaderBar td{background-color: #2B5D78 !important,}.tableHeaderLabelAlt td{background-color: #00C0F2 !important,padding: 5px 0px 0px 5px,}.tableHeaderLabelAlt td a{background-color: #00C0F2 !important,color: #365E28 !important,}.tableHeaderLabelAlt td h3{color: #FFF,}.tableHeaderBar{font-size: 17px !important,color: #FFF !important,padding: 5px 0px 0px 5px,}</style>To build IDP actions, consider:<br>
+- Analysis of the evaluation made, focusing on the strong points and those to be strengthened,<br>
+- Needs of development for the present position and future positions,<br>
+- Give preference to feasible, clear actions which may be carried out and that are challenging.<br><br>
+(Minimum of 2 IDP goals are required)
+<script>
+ function alteraLabels(idTable, x){
+  var vetorLabelRating = new Array(), 
+  qtdElementos = document.getElementById(idTable).getElementsByTagName('span').length,
+ 
+  y = 0,
+ 
+  for (i = 0, i < qtdElementos, i++){
+   labelRating = document.getElementById(idTable).getElementsByTagName('span')[i].title,
+  
+   if (labelRating != """"){
+    vetorLabelRating[y] = labelRating,
+    y++,
+   }
+  }
+ 
+  stringValidacao = """",
+ 
+  for (i = 0, i < y, i++){
+   if ((y - 1) == i)
+    stringValidacao += ""labelRating == '"" + vetorLabelRating[i] + ""'""
+   else
+    stringValidacao += ""labelRating == '"" + vetorLabelRating[i] + ""' || ""
+  }
+ 
+  for (i = 0, i < qtdElementos, i++){
+   labelRating = document.getElementById(idTable).getElementsByTagName('span')[i].title,
+ 
+   if (eval(stringValidacao)){
+    if (labelRating == ""Unrated""){
+  document.getElementById(idTable).getElementsByTagName('span')[i].id = ""spanUnrated_"" + x,
+  TituloRadio = document.getElementById(idTable).getElementsByTagName('span')[11].getElementsByTagName('input')[0].title,
+  document.getElementById(""spanUnrated_"" + x).title = TituloRadio,
+  document.getElementById(""spanUnrated_"" + x).innerHTML = TituloRadio,
+ }
+ else{
+  document.getElementById(idTable).getElementsByTagName('span')[i].innerHTML = labelRating,
+ }
+    
+    document.getElementById(idTable).getElementsByTagName('span')[i].parentNode.style.textAlign = ""center"",
+    document.getElementById(idTable).getElementsByTagName('span')[i].parentNode.style.width = ""100px"",
+    document.getElementById(idTable).getElementsByTagName('span')[i].parentNode.style.padding = ""0px"",
+   }
+  
+   if (document.getElementById(idTable).getElementsByTagName('span')[i].getElementsByTagName('input').length > 0){
+    document.getElementById(idTable).getElementsByTagName('span')[i].parentNode.style.textAlign = ""center"",
+    document.getElementById(idTable).getElementsByTagName('span')[i].parentNode.style.width = ""100px"",
+    document.getElementById(idTable).getElementsByTagName('span')[i].parentNode.style.padding = ""0px"",
+   }
+  }
+ }
+ 
+ for (x = 0, x < document.getElementsByTagName('table').length, x++){
+  if (document.getElementsByTagName('table')[x].id == ""tbl""){
+   document.getElementsByTagName('table')[x].id = ""tbl_"" + x,
+   alteraLabels(""tbl_"" + x, x),
+  }
+ }
+</script>",,"<style>.tableHeaderBar td{background-color: #2B5D78 !important,}.tableHeaderLabelAlt td{background-color: #00C0F2 !important,padding: 5px 0px 0px 5px,}.tableHeaderLabelAlt td a{background-color: #00C0F2 !important,color: #365E28 !important,}.tableHeaderLabelAlt td h3{color: #FFF,}.tableHeaderBar{font-size: 17px !important,color: #FFF !important,padding: 5px 0px 0px 5px,}</style>To build IDP actions, consider:<br>
+- Analysis of the evaluation made, focusing on the strong points and those to be strengthened,<br>
+- Needs of development for the present position and future positions,<br>
+- Give preference to feasible, clear actions which may be carried out and that are challenging.<br><br>
+(Minimum of 2 IDP goals are required)
+<script>
+ function alteraLabels(idTable, x){
+  var vetorLabelRating = new Array(), 
+  qtdElementos = document.getElementById(idTable).getElementsByTagName('span').length,
+ 
+  y = 0,
+ 
+  for (i = 0, i < qtdElementos, i++){
+   labelRating = document.getElementById(idTable).getElementsByTagName('span')[i].title,
+  
+   if (labelRating != """"){
+    vetorLabelRating[y] = labelRating,
+    y++,
+   }
+  }
+ 
+  stringValidacao = """",
+ 
+  for (i = 0, i < y, i++){
+   if ((y - 1) == i)
+    stringValidacao += ""labelRating == '"" + vetorLabelRating[i] + ""'""
+   else
+    stringValidacao += ""labelRating == '"" + vetorLabelRating[i] + ""' || ""
+  }
+ 
+  for (i = 0, i < qtdElementos, i++){
+   labelRating = document.getElementById(idTable).getElementsByTagName('span')[i].title,
+ 
+   if (eval(stringValidacao)){
+    if (labelRating == ""Unrated""){
+  document.getElementById(idTable).getElementsByTagName('span')[i].id = ""spanUnrated_"" + x,
+  TituloRadio = document.getElementById(idTable).getElementsByTagName('span')[11].getElementsByTagName('input')[0].title,
+  document.getElementById(""spanUnrated_"" + x).title = TituloRadio,
+  document.getElementById(""spanUnrated_"" + x).innerHTML = TituloRadio,
+ }
+ else{
+  document.getElementById(idTable).getElementsByTagName('span')[i].innerHTML = labelRating,
+ }
+    
+    document.getElementById(idTable).getElementsByTagName('span')[i].parentNode.style.textAlign = ""center"",
+    document.getElementById(idTable).getElementsByTagName('span')[i].parentNode.style.width = ""100px"",
+    document.getElementById(idTable).getElementsByTagName('span')[i].parentNode.style.padding = ""0px"",
+   }
+  
+   if (document.getElementById(idTable).getElementsByTagName('span')[i].getElementsByTagName('input').length > 0){
+    document.getElementById(idTable).getElementsByTagName('span')[i].parentNode.style.textAlign = ""center"",
+    document.getElementById(idTable).getElementsByTagName('span')[i].parentNode.style.width = ""100px"",
+    document.getElementById(idTable).getElementsByTagName('span')[i].parentNode.style.padding = ""0px"",
+   }
+  }
+ }
+ 
+ for (x = 0, x < document.getElementsByTagName('table').length, x++){
+  if (document.getElementsByTagName('table')[x].id == ""tbl""){
+   document.getElementsByTagName('table')[x].id = ""tbl_"" + x,
+   alteraLabels(""tbl_"" + x, x),
+  }
+ }
+</script>","<style>.tableHeaderBar td{background-color: #2B5D78 !important,}.tableHeaderLabelAlt td{background-color: #00C0F2 !important,padding: 5px 0px 0px 5px,}.tableHeaderLabelAlt td a{background-color: #00C0F2 !important,color: #365E28 !important,}.tableHeaderLabelAlt td h3{color: #FFF,}.tableHeaderBar{font-size: 17px !important,color: #FFF !important,padding: 5px 0px 0px 5px,}</style>
+Para construir las acciones IDP considere lo siguiente:<br>
+- El análisis de la evaluación efectuada, enfocando las creencias  que tiene más desarrolladas y las que precisan ser fortalecidas,<br>
+- La necesidades de desarrollo en el puesto actual y para los puestos futuros,<br>
+- De preferencia a las acciones factibles y claras que puedan ser ejecutadas y que sean desafiantes.<br><br>
+(Se exige un mínimo de 2 metas IDP)
+<script>
+ function alteraLabels(idTable, x){
+  var vetorLabelRating = new Array(), 
+  qtdElementos = document.getElementById(idTable).getElementsByTagName('span').length,
+ 
+  y = 0,
+ 
+  for (i = 0, i < qtdElementos, i++){
+   labelRating = document.getElementById(idTable).getElementsByTagName('span')[i].title,
+  
+   if (labelRating != """"){
+    vetorLabelRating[y] = labelRating,
+    y++,
+   }
+  }
+ 
+  stringValidacao = """",
+ 
+  for (i = 0, i < y, i++){
+   if ((y - 1) == i)
+    stringValidacao += ""labelRating == '"" + vetorLabelRating[i] + ""'""
+   else
+    stringValidacao += ""labelRating == '"" + vetorLabelRating[i] + ""' || ""
+  }
+ 
+  for (i = 0, i < qtdElementos, i++){
+   labelRating = document.getElementById(idTable).getElementsByTagName('span')[i].title,
+ 
+   if (eval(stringValidacao)){
+    if (labelRating == ""Unrated""){
+  document.getElementById(idTable).getElementsByTagName('span')[i].id = ""spanUnrated_"" + x,
+  TituloRadio = document.getElementById(idTable).getElementsByTagName('span')[11].getElementsByTagName('input')[0].title,
+  document.getElementById(""spanUnrated_"" + x).title = TituloRadio,
+  document.getElementById(""spanUnrated_"" + x).innerHTML = TituloRadio,
+ }
+ else{
+  document.getElementById(idTable).getElementsByTagName('span')[i].innerHTML = labelRating,
+ }
+    
+    document.getElementById(idTable).getElementsByTagName('span')[i].parentNode.style.textAlign = ""center"",
+    document.getElementById(idTable).getElementsByTagName('span')[i].parentNode.style.width = ""100px"",
+    document.getElementById(idTable).getElementsByTagName('span')[i].parentNode.style.padding = ""0px"",
+   }
+  
+   if (document.getElementById(idTable).getElementsByTagName('span')[i].getElementsByTagName('input').length > 0){
+    document.getElementById(idTable).getElementsByTagName('span')[i].parentNode.style.textAlign = ""center"",
+    document.getElementById(idTable).getElementsByTagName('span')[i].parentNode.style.width = ""100px"",
+    document.getElementById(idTable).getElementsByTagName('span')[i].parentNode.style.padding = ""0px"",
+   }
+  }
+ }
+ 
+ for (x = 0, x < document.getElementsByTagName('table').length, x++){
+  if (document.getElementsByTagName('table')[x].id == ""tbl""){
+   document.getElementsByTagName('table')[x].id = ""tbl_"" + x,
+   alteraLabels(""tbl_"" + x, x),
+  }
+ }
+</script>","<style>.tableHeaderBar td{background-color: #2B5D78 !important,}.tableHeaderLabelAlt td{background-color: #00C0F2 !important,padding: 5px 0px 0px 5px,}.tableHeaderLabelAlt td a{background-color: #00C0F2 !important,color: #365E28 !important,}.tableHeaderLabelAlt td h3{color: #FFF,}.tableHeaderBar{font-size: 17px !important,color: #FFF !important,padding: 5px 0px 0px 5px,}</style>
+Pour construire des actions PDI, considérer:<br>
+- l'Analyse de l'évaluation faite, en se concentrant aux croyances fortes et celles à être renforcées,<br>
+- Les besoins de développement pour la situation actuelle et les positions futures,<br>
+- Donner la préférence à des actions claires, réalisables qui peuvent être réalisées et qui sont difficiles.<br><br>
+(Minimum de 2 objectifs IDP objectifs sont requis)
+<script>
+ function alteraLabels(idTable, x){
+  var vetorLabelRating = new Array(), 
+  qtdElementos = document.getElementById(idTable).getElementsByTagName('span').length,
+ 
+  y = 0,
+ 
+  for (i = 0, i < qtdElementos, i++){
+   labelRating = document.getElementById(idTable).getElementsByTagName('span')[i].title,
+  
+   if (labelRating != """"){
+    vetorLabelRating[y] = labelRating,
+    y++,
+   }
+  }
+ 
+  stringValidacao = """",
+ 
+  for (i = 0, i < y, i++){
+   if ((y - 1) == i)
+    stringValidacao += ""labelRating == '"" + vetorLabelRating[i] + ""'""
+   else
+    stringValidacao += ""labelRating == '"" + vetorLabelRating[i] + ""' || ""
+  }
+ 
+  for (i = 0, i < qtdElementos, i++){
+   labelRating = document.getElementById(idTable).getElementsByTagName('span')[i].title,
+ 
+   if (eval(stringValidacao)){
+    if (labelRating == ""Unrated""){
+  document.getElementById(idTable).getElementsByTagName('span')[i].id = ""spanUnrated_"" + x,
+  TituloRadio = document.getElementById(idTable).getElementsByTagName('span')[11].getElementsByTagName('input')[0].title,
+  document.getElementById(""spanUnrated_"" + x).title = TituloRadio,
+  document.getElementById(""spanUnrated_"" + x).innerHTML = TituloRadio,
+ }
+ else{
+  document.getElementById(idTable).getElementsByTagName('span')[i].innerHTML = labelRating,
+ }
+    
+    document.getElementById(idTable).getElementsByTagName('span')[i].parentNode.style.textAlign = ""center"",
+    document.getElementById(idTable).getElementsByTagName('span')[i].parentNode.style.width = ""100px"",
+    document.getElementById(idTable).getElementsByTagName('span')[i].parentNode.style.padding = ""0px"",
+   }
+  
+   if (document.getElementById(idTable).getElementsByTagName('span')[i].getElementsByTagName('input').length > 0){
+    document.getElementById(idTable).getElementsByTagName('span')[i].parentNode.style.textAlign = ""center"",
+    document.getElementById(idTable).getElementsByTagName('span')[i].parentNode.style.width = ""100px"",
+    document.getElementById(idTable).getElementsByTagName('span')[i].parentNode.style.padding = ""0px"",
+   }
+  }
+ }
+ 
+ for (x = 0, x < document.getElementsByTagName('table').length, x++){
+  if (document.getElementsByTagName('table')[x].id == ""tbl""){
+   document.getElementsByTagName('table')[x].id = ""tbl_"" + x,
+   alteraLabels(""tbl_"" + x, x),
+  }
+ }
+</script>","<style>.tableHeaderBar td{background-color: #2B5D78 !important,}.tableHeaderLabelAlt td{background-color: #00C0F2 !important,padding: 5px 0px 0px 5px,}.tableHeaderLabelAlt td a{background-color: #00C0F2 !important,color: #365E28 !important,}.tableHeaderLabelAlt td h3{color: #FFF,}.tableHeaderBar{font-size: 17px !important,color: #FFF !important,padding: 5px 0px 0px 5px,}</style> 
+Para construir ações de PDI, considerar:<br>
+- Análise sobre a avaliação feita, focando nos pontos fortes e a fortalecer,<br>
+- Necessidades de desenvolvimento para posição atual e posições futuras,<br>
+- Dê preferência para ações claras, possíveis de serem realizadas e desafiadoras.
+<script>
+ function alteraLabels(idTable, x){
+  var vetorLabelRating = new Array(), 
+  qtdElementos = document.getElementById(idTable).getElementsByTagName('span').length,
+ 
+  y = 0,
+ 
+  for (i = 0, i < qtdElementos, i++){
+   labelRating = document.getElementById(idTable).getElementsByTagName('span')[i].title,
+  
+   if (labelRating != """"){
+    vetorLabelRating[y] = labelRating,
+    y++,
+   }
+  }
+ 
+  stringValidacao = """",
+ 
+  for (i = 0, i < y, i++){
+   if ((y - 1) == i)
+    stringValidacao += ""labelRating == '"" + vetorLabelRating[i] + ""'""
+   else
+    stringValidacao += ""labelRating == '"" + vetorLabelRating[i] + ""' || ""
+  }
+ 
+  for (i = 0, i < qtdElementos, i++){
+   labelRating = document.getElementById(idTable).getElementsByTagName('span')[i].title,
+ 
+   if (eval(stringValidacao)){
+    if (labelRating == ""Unrated""){
+  document.getElementById(idTable).getElementsByTagName('span')[i].id = ""spanUnrated_"" + x,
+  TituloRadio = document.getElementById(idTable).getElementsByTagName('span')[11].getElementsByTagName('input')[0].title,
+  document.getElementById(""spanUnrated_"" + x).title = TituloRadio,
+  document.getElementById(""spanUnrated_"" + x).innerHTML = TituloRadio,
+ }
+ else{
+  document.getElementById(idTable).getElementsByTagName('span')[i].innerHTML = labelRating,
+ }
+    
+    document.getElementById(idTable).getElementsByTagName('span')[i].parentNode.style.textAlign = ""center"",
+    document.getElementById(idTable).getElementsByTagName('span')[i].parentNode.style.width = ""100px"",
+    document.getElementById(idTable).getElementsByTagName('span')[i].parentNode.style.padding = ""0px"",
+   }
+  
+   if (document.getElementById(idTable).getElementsByTagName('span')[i].getElementsByTagName('input').length > 0){
+    document.getElementById(idTable).getElementsByTagName('span')[i].parentNode.style.textAlign = ""center"",
+    document.getElementById(idTable).getElementsByTagName('span')[i].parentNode.style.width = ""100px"",
+    document.getElementById(idTable).getElementsByTagName('span')[i].parentNode.style.padding = ""0px"",
+   }
+  }
+ }
+ 
+ for (x = 0, x < document.getElementsByTagName('table').length, x++){
+  if (document.getElementsByTagName('table')[x].id == ""tbl""){
+   document.getElementsByTagName('table')[x].id = ""tbl_"" + x,
+   alteraLabels(""tbl_"" + x, x),
+  }
+ }
+</script>","<style>.tableHeaderBar td{background-color: #2B5D78 !important,}.tableHeaderLabelAlt td{background-color: #00C0F2 !important,padding: 5px 0px 0px 5px,}.tableHeaderLabelAlt td a{background-color: #00C0F2 !important,color: #365E28 !important,}.tableHeaderLabelAlt td h3{color: #FFF,}.tableHeaderBar{font-size: 17px !important,color: #FFF !important,padding: 5px 0px 0px 5px,}</style>
+IDP eylemleri inşa etmek için, şunları dikkate alın:<br>
+- Yapılan değerlendirmeyi analiz etme, güçlü ve güçlendirilmesi gereken düşünceler üzerinde odaklanma,<br>
+- Mevcut durum ve gelecekteki konum için gelişim ihtiyacı,<br>
+- Gerçekleştirilmesi mümkün ve ilgi çekici makul ve açık eylemlere öncelik verme.<br><br>
+(En az 2 IDP hedefi gereklidir)
+<script>
+ function alteraLabels(idTable, x){
+  var vetorLabelRating = new Array(), 
+  qtdElementos = document.getElementById(idTable).getElementsByTagName('span').length,
+ 
+  y = 0,
+ 
+  for (i = 0, i < qtdElementos, i++){
+   labelRating = document.getElementById(idTable).getElementsByTagName('span')[i].title,
+  
+   if (labelRating != """"){
+    vetorLabelRating[y] = labelRating,
+    y++,
+   }
+  }
+ 
+  stringValidacao = """",
+ 
+  for (i = 0, i < y, i++){
+   if ((y - 1) == i)
+    stringValidacao += ""labelRating == '"" + vetorLabelRating[i] + ""'""
+   else
+    stringValidacao += ""labelRating == '"" + vetorLabelRating[i] + ""' || ""
+  }
+ 
+  for (i = 0, i < qtdElementos, i++){
+   labelRating = document.getElementById(idTable).getElementsByTagName('span')[i].title,
+ 
+   if (eval(stringValidacao)){
+    if (labelRating == ""Unrated""){
+  document.getElementById(idTable).getElementsByTagName('span')[i].id = ""spanUnrated_"" + x,
+  TituloRadio = document.getElementById(idTable).getElementsByTagName('span')[11].getElementsByTagName('input')[0].title,
+  document.getElementById(""spanUnrated_"" + x).title = TituloRadio,
+  document.getElementById(""spanUnrated_"" + x).innerHTML = TituloRadio,
+ }
+ else{
+  document.getElementById(idTable).getElementsByTagName('span')[i].innerHTML = labelRating,
+ }
+    
+    document.getElementById(idTable).getElementsByTagName('span')[i].parentNode.style.textAlign = ""center"",
+    document.getElementById(idTable).getElementsByTagName('span')[i].parentNode.style.width = ""100px"",
+    document.getElementById(idTable).getElementsByTagName('span')[i].parentNode.style.padding = ""0px"",
+   }
+  
+   if (document.getElementById(idTable).getElementsByTagName('span')[i].getElementsByTagName('input').length > 0){
+    document.getElementById(idTable).getElementsByTagName('span')[i].parentNode.style.textAlign = ""center"",
+    document.getElementById(idTable).getElementsByTagName('span')[i].parentNode.style.width = ""100px"",
+    document.getElementById(idTable).getElementsByTagName('span')[i].parentNode.style.padding = ""0px"",
+   }
+  }
+ }
+ 
+ for (x = 0, x < document.getElementsByTagName('table').length, x++){
+  if (document.getElementsByTagName('table')[x].id == ""tbl""){
+   document.getElementsByTagName('table')[x].id = ""tbl_"" + x,
+   alteraLabels(""tbl_"" + x, x),
+  }
+ }
+</script>",
+IntroResumoPM,en_US,,"<style>.tableHeaderBar td{background-color: #2B5D78 !important,}.tableHeaderLabelAlt td{background-color: #00C0F2 !important,padding: 5px 0px 0px 5px,}.tableHeaderLabelAlt td a{background-color: #00C0F2 !important,color: #365E28 !important,}.tableHeaderLabelAlt td h3{color: #FFF,}.tableHeaderBar{font-size: 17px !important,color: #FFF !important,padding: 5px 0px 0px 5px,}</style> Check here your consolidated evaluation",,"<style>.tableHeaderBar td{background-color: #2B5D78 !important,}.tableHeaderLabelAlt td{background-color: #00C0F2 !important,padding: 5px 0px 0px 5px,}.tableHeaderLabelAlt td a{background-color: #00C0F2 !important,color: #365E28 !important,}.tableHeaderLabelAlt td h3{color: #FFF,}.tableHeaderBar{font-size: 17px !important,color: #FFF !important,padding: 5px 0px 0px 5px,}</style> Check here your consolidated evaluation",,,"<style>.tableHeaderBar td{background-color: #2B5D78 !important,}.tableHeaderLabelAlt td{background-color: #00C0F2 !important,padding: 5px 0px 0px 5px,}.tableHeaderLabelAlt td a{background-color: #00C0F2 !important,color: #365E28 !important,}.tableHeaderLabelAlt td h3{color: #FFF,}.tableHeaderBar{font-size: 17px !important,color: #FFF !important,padding: 5px 0px 0px 5px,}</style> Confira aqui sua avaliação consolidada",,
+CampoComentarioGestor,en_US,"ملاحظات المدير","Manager Comments",,"Manager Comments","Comentarios del Supervisor","Commentaires du Manager","Comentários do Gestor","Yönetici Yorumları","经理意见"
+IntroJobPerformance,en_US,,"<style>.tableHeaderBar td{background-color: #2B5D78 !important,}.tableHeaderLabelAlt td{background-color: #00C0F2 !important,padding: 5px 0px 0px 5px,}.tableHeaderLabelAlt td a{background-color: #00C0F2 !important,color: #365E28 !important,}.tableHeaderLabelAlt td h3{color: #FFF,}.tableHeaderBar{font-size: 17px !important,color: #FFF !important,padding: 5px 0px 0px 5px,}</style>
+<table align=center>
+          <tr>
+          <td>
+<img src=https://performancemanager4.successfactors.com/Votorantim/img_horizontal_axis_EN.jpg align=center>
+</tr>
+</table>
+<br><br>",,"<style>.tableHeaderBar td{background-color: #2B5D78 !important,}.tableHeaderLabelAlt td{background-color: #00C0F2 !important,padding: 5px 0px 0px 5px,}.tableHeaderLabelAlt td a{background-color: #00C0F2 !important,color: #365E28 !important,}.tableHeaderLabelAlt td h3{color: #FFF,}.tableHeaderBar{font-size: 17px !important,color: #FFF !important,padding: 5px 0px 0px 5px,}</style>
+<table align=center>
+          <tr>
+          <td>
+<img src=https://performancemanager4.successfactors.com/Votorantim/img_horizontal_axis_EN.jpg align=center>
+</tr>
+</table>
+<br><br>","<style>.tableHeaderBar td{background-color: #2B5D78 !important,}.tableHeaderLabelAlt td{background-color: #00C0F2 !important,padding: 5px 0px 0px 5px,}.tableHeaderLabelAlt td a{background-color: #00C0F2 !important,color: #365E28 !important,}.tableHeaderLabelAlt td h3{color: #FFF,}.tableHeaderBar{font-size: 17px !important,color: #FFF !important,padding: 5px 0px 0px 5px,}</style>
+<table align=center>
+          <tr>
+          <td>
+<img src=https://performancemanager4.successfactors.com/Votorantim/img_horizontal_axis_ES.jpg align=center>
+</tr>
+</table>
+<br><br>","<style>.tableHeaderBar td{background-color: #2B5D78 !important,}.tableHeaderLabelAlt td{background-color: #00C0F2 !important,padding: 5px 0px 0px 5px,}.tableHeaderLabelAlt td a{background-color: #00C0F2 !important,color: #365E28 !important,}.tableHeaderLabelAlt td h3{color: #FFF,}.tableHeaderBar{font-size: 17px !important,color: #FFF !important,padding: 5px 0px 0px 5px,}</style>
+<table align=center>
+          <tr>
+          <td>
+<img src=https://performancemanager4.successfactors.com/Votorantim/img_horizontal_axis_FR.jpg align=center>
+</tr>
+</table>
+<br><br>","<style>.tableHeaderBar td{background-color: #2B5D78 !important,}.tableHeaderLabelAlt td{background-color: #00C0F2 !important,padding: 5px 0px 0px 5px,}.tableHeaderLabelAlt td a{background-color: #00C0F2 !important,color: #365E28 !important,}.tableHeaderLabelAlt td h3{color: #FFF,}.tableHeaderBar{font-size: 17px !important,color: #FFF !important,padding: 5px 0px 0px 5px,}</style>
+<table align=center>
+          <tr>
+          <td>
+<img src=https://performancemanager4.successfactors.com/Votorantim/img_horizontal_axis_PT.jpg align=center>
+</tr>
+</table>
+<br><br>","<style>.tableHeaderBar td{background-color: #2B5D78 !important,}.tableHeaderLabelAlt td{background-color: #00C0F2 !important,padding: 5px 0px 0px 5px,}.tableHeaderLabelAlt td a{background-color: #00C0F2 !important,color: #365E28 !important,}.tableHeaderLabelAlt td h3{color: #FFF,}.tableHeaderBar{font-size: 17px !important,color: #FFF !important,padding: 5px 0px 0px 5px,}</style>
+<table align=center>
+          <tr>
+          <td>
+<img src=https://performancemanager4.successfactors.com/Votorantim/img_horizontal_axis_TR.jpg align=center>
+</tr>
+</table>
+<br><br>",
+SecRaters,en_US,,"Rater List",,"Rater List","Lista de Calificación","Liste du évaluateur","Lista de Avaliadores","Değerlendirici Listesi",
+RatingMetas,en_US,"الإنجاز المستوى","Achievement (Level)",,"Achievement (Level)","Logro (nivel)","Réalisation (Niveau)","Pontuação Final (Nível)","Başarı (Seviye)","完成值（等级）"
+SecMetas,en_US,"الأهداف التشغيلية و الفردية","Operational and Individual Goals",,"Operational and Individual Goals","Metas Operativas e Individuales","Objectifs opérationnels et individuels","Metas - Bloco Operacional","Operasyonel ve Bireysel Hedefleri","经营目标和个人目标"
+SecResumo,en_US,"الملخص","Summary",,"Summary","Resumen","Résumé","Resumo","Özet","Summary"
+MsgRatersErroMin,en_US,,"The actual number participants in the category ""[[CATEGORY]]"" is [[ACTUAL_COUNT]] and needs to be at least [[EXPECTED_COUNT]]",,"The actual number participants in the category ""[[CATEGORY]]"" is [[ACTUAL_COUNT]] and needs to be at least [[EXPECTED_COUNT]]","El número actual de participantes en la categoría ""[[CATEGORY]]"" es de [[ACTUAL_COUNT]] y precisa ser de por lo menos [[EXPECTED_COUNT]]","Le nombre réel de participants dans la catégorie ""[[CATEGORY]]"" est [[ACTUAL_COUNT]] et doit être d'au moins [[EXPECTED_COUNT]]","O número atual de avaliadores na categoria ""[[CATEGORY]]"" é [[ACTUAL_COUNT]] e o número mínimo esperado é de [[EXPECTED_COUNT]]","""[[CATEGORY]]"" kategorisindeki mevcut katılımcı sayısı [[ACTUAL_COUNT]] olarak belirlenmiştir ve bu sayının en az [[EXPECTED_COUNT]] olması beklenmektedir",
+defaultRatingGoalsJobPerformance,en_US,,"I do not know how to evaluate / not applicable",,"I do not know how to evaluate / not applicable","No sé evaluar / no aplicable","Je ne sais pas évaluer / ne se applique pas","Não sei avaliar / não aplicável","Nasıl değerlendireceğimi bilmiyorum/ uygulanabilir değil",
+SecFunc,en_US,"معلومات عن العامل","Employee Information",,"Employee Information","Información del empleado","Informations sur l'employé","Informações do Funcionário","Çalışan Bilgisi","员工信息"
+CampoComentarioColaborador,en_US,"ملاحظات العامل","Employee Comments",,"Employee Comments","Comentarios del empleado","Commentaires de l'employé","Comentários do Colaborador","Çalışan Yorumları","员工意见"
+Auto,en_US,,"Self",,"Self","Propio","Soi-même","Auto-Avaliação","Kendisi",
+SecCrencas,en_US,,"Beliefs",,"Beliefs","Creencias","Croyances","Crenças","İnançlar",
+IntroAvaliacao,en_US,,"<style>.tableHeaderBar td{background-color: #2B5D78 !important,}.tableHeaderLabelAlt td{background-color: #00C0F2 !important,padding: 5px 0px 0px 5px,}.tableHeaderLabelAlt td a{background-color: #00C0F2 !important,color: #365E28 !important,}.tableHeaderLabelAlt td h3{color: #FFF,}.tableHeaderBar{font-size: 17px !important,color: #FFF !important,padding: 5px 0px 0px 5px,}</style>Manager,<br><br>
+Based on the evaluation done above, comment the strong points. Theses comments will be used as a base to committee discussion.<br><br>
+Select the two strongest points and the two that need improvement:<br>
+[[PORTLETLINK|61|10|Evaluation Spotlight]]<br>",,"<style>.tableHeaderBar td{background-color: #2B5D78 !important,}.tableHeaderLabelAlt td{background-color: #00C0F2 !important,padding: 5px 0px 0px 5px,}.tableHeaderLabelAlt td a{background-color: #00C0F2 !important,color: #365E28 !important,}.tableHeaderLabelAlt td h3{color: #FFF,}.tableHeaderBar{font-size: 17px !important,color: #FFF !important,padding: 5px 0px 0px 5px,}</style>Manager,<br><br>
+Based on the evaluation done above, comment the strong points. Theses comments will be used as a base to committee discussion.<br><br>
+Select the two strongest points and the two that need improvement:<br>
+[[PORTLETLINK|61|10|Evaluation Spotlight]]<br>","<style>.tableHeaderBar td{background-color: #2B5D78 !important,}.tableHeaderLabelAlt td{background-color: #00C0F2 !important,padding: 5px 0px 0px 5px,}.tableHeaderLabelAlt td a{background-color: #00C0F2 !important,color: #365E28 !important,}.tableHeaderLabelAlt td h3{color: #FFF,}.tableHeaderBar{font-size: 17px !important,color: #FFF !important,padding: 5px 0px 0px 5px,}</style>
+Manager,<br><br>
+Basado en la evaluación realizada según lo mencionado anteriormente, por favor, identifique las 2 puntuaciones más fuertes y las 2 que necesitan ser desarrolladas. Estos comentarios serán la base para las discusiones del comité.<br><br>
+Seleccione las dos puntuaciones más fuertes y las dos que precisan ser desarrolladas:<br>
+[[PORTLETLINK|61|10|Enfoque de la evaluación]]<br>","<style>.tableHeaderBar td{background-color: #2B5D78 !important,}.tableHeaderLabelAlt td{background-color: #00C0F2 !important,padding: 5px 0px 0px 5px,}.tableHeaderLabelAlt td a{background-color: #00C0F2 !important,color: #365E28 !important,}.tableHeaderLabelAlt td h3{color: #FFF,}.tableHeaderBar{font-size: 17px !important,color: #FFF !important,padding: 5px 0px 0px 5px,}</style>
+Gestionnaire,<br><br>
+Sur la base de l'évaluation faite ci-dessus, s'il vous plaît identifier les 2 plus fortes convictions et les 2 qui ont besoin d'un développement ultérieur. Ces commentaires formeront la base des discussions du comité.<br><br>
+Sélectionnez les deux plus fortes convictions et les deux qui doivent être améliorés:<br>
+[[PORTLETLINK|61|10|Mettre en valeur l’evaluation]]<br>","<style>.tableHeaderBar td{background-color: #2B5D78 !important,}.tableHeaderLabelAlt td{background-color: #00C0F2 !important,padding: 5px 0px 0px 5px,}.tableHeaderLabelAlt td a{background-color: #00C0F2 !important,color: #365E28 !important,}.tableHeaderLabelAlt td h3{color: #FFF,}.tableHeaderBar{font-size: 17px !important,color: #FFF !important,padding: 5px 0px 0px 5px,}</style>Gestor,<br><br>
+Com base na avaliação feita acima, comente os pontos de maior destaque. Estes comentários servirão de base para discussão no comitê de avaliação<br><br>
+Selecione dois pontos mais fortes e dois a fortalecer:<br>
+[[PORTLETLINK|61|10|Destaques da Avaliação]]<br>","<style>.tableHeaderBar td{background-color: #2B5D78 !important,}.tableHeaderLabelAlt td{background-color: #00C0F2 !important,padding: 5px 0px 0px 5px,}.tableHeaderLabelAlt td a{background-color: #00C0F2 !important,color: #365E28 !important,}.tableHeaderLabelAlt td h3{color: #FFF,}.tableHeaderBar{font-size: 17px !important,color: #FFF !important,padding: 5px 0px 0px 5px,}</style>
+Sayın Yönetici,<br><br>
+Yukarıda yapılan değerlendirmeye dayanarak, 2 güçlü düşünceyi ve geliştirilmesi gereken 2 hususu belirtin. Bu yorumlar komisyon tartışmalarına dayanak teşkil edecek.<br><br>
+En güçlü iki düşünceyi ve geliştirilmesi gereken iki hususu seçin:<br>
+[[PORTLETLINK|61|10|Değerlendirme Projektörü]]<br>",
+IntroRater,en_US,,"<style>.tableHeaderBar td{background-color: #2B5D78 !important,}.tableHeaderLabelAlt td{background-color: #00C0F2 !important,padding: 5px 0px 0px 5px,}.tableHeaderLabelAlt td a{background-color: #00C0F2 !important,color: #365E28 !important,}.tableHeaderLabelAlt td h3{color: #FFF,}.tableHeaderBar{font-size: 17px !important,color: #FFF !important,padding: 5px 0px 0px 5px,}</style>
+The evaluators are defined according to a pre-registered hierarchy. If any change is necessary, you may do so here. Remember that this definition is very important for the success of the process. Make the change considering that the people chosen currently work, or have worked with the evaluated person and will have robust arguments, based on our beliefs to compose the appraisal.<br><br>
+<b>Note:</b> The changes made here will not affect the hierarchy registered in official media, if it is a mistake to register, the correction in official media should be sought to the responsible parties.",,"<style>.tableHeaderBar td{background-color: #2B5D78 !important,}.tableHeaderLabelAlt td{background-color: #00C0F2 !important,padding: 5px 0px 0px 5px,}.tableHeaderLabelAlt td a{background-color: #00C0F2 !important,color: #365E28 !important,}.tableHeaderLabelAlt td h3{color: #FFF,}.tableHeaderBar{font-size: 17px !important,color: #FFF !important,padding: 5px 0px 0px 5px,}</style>
+The evaluators are defined according to a pre-registered hierarchy. If any change is necessary, you may do so here. Remember that this definition is very important for the success of the process. Make the change considering that the people chosen currently work, or have worked with the evaluated person and will have robust arguments, based on our beliefs to compose the appraisal.<br><br>
+<b>Note:</b> The changes made here will not affect the hierarchy registered in official media, if it is a mistake to register, the correction in official media should be sought to the responsible parties.","<style>.tableHeaderBar td{background-color: #2B5D78 !important,}.tableHeaderLabelAlt td{background-color: #00C0F2 !important,padding: 5px 0px 0px 5px,}.tableHeaderLabelAlt td a{background-color: #00C0F2 !important,color: #365E28 !important,}.tableHeaderLabelAlt td h3{color: #FFF,}.tableHeaderBar{font-size: 17px !important,color: #FFF !important,padding: 5px 0px 0px 5px,}</style>
+Los evaluadores se definen de acuerdo con una jerarquía pre-registrada. Si fuera necesario hacer un cambio, puede hacerlo aquí. Recuerde que esta definición es importante para el éxito del proceso. Haga el cambio teniendo en cuenta que las personas escogidas  actualmente ocupan  o un puesto de trabajo, o trabajaron con la persona evaluada y que tendrá buenas razones, basadas en nuestras creencias para elaborar la valoración.<br><br>
+<b>Nota:</b> Los cambios que se efectúen aquí no afectarán a la jerarquía según lo registrado en los medios oficiales, si el registro fuera considerado un error, las partes responsables deberán procurar efectuar la corrección.","<style>.tableHeaderBar td{background-color: #2B5D78 !important,}.tableHeaderLabelAlt td{background-color: #00C0F2 !important,padding: 5px 0px 0px 5px,}.tableHeaderLabelAlt td a{background-color: #00C0F2 !important,color: #365E28 !important,}.tableHeaderLabelAlt td h3{color: #FFF,}.tableHeaderBar{font-size: 17px !important,color: #FFF !important,padding: 5px 0px 0px 5px,}</style>
+Les évaluateurs sont définis selon une hiérarchie pré-enregistré. Si un changement est nécessaire, vous pouvez le faire ici. Rappelez-vous que cette définition est très importante pour le succès du processus. Apportez les modifications étant donné que les personnes choisies travaillent actuellement, ou ont travaillé avec la personne évaluée et auront des arguments solides, sur la base de nos croyances pour composer l'évaluation.<br><br>
+<b>Remarque:</b> Les changements apportés ici n'affecteront pas la hiérarchie enregistré dans les médias officiels, si c'est une erreur pour enregistrer, la correction dans les médias officiels devrait être recherchée pour les parties responsables.","<style>.tableHeaderBar td{background-color: #2B5D78 !important,}.tableHeaderLabelAlt td{background-color: #00C0F2 !important,padding: 5px 0px 0px 5px,}.tableHeaderLabelAlt td a{background-color: #00C0F2 !important,color: #365E28 !important,}.tableHeaderLabelAlt td h3{color: #FFF,}.tableHeaderBar{font-size: 17px !important,color: #FFF !important,padding: 5px 0px 0px 5px,}</style>
+Os avaliadores são definidos conforme hierarquia pré-cadastrada. Caso alguma alteração seja necessária você poderá fazer por aqui. Lembre-se que esta definição é muito importante para o sucesso do processo. Faça a alteração levando em consideração que as pessoas escolhidas ,atualmente trabalham, ou já trabalharam com o avaliado e terão argumentos robustos baseados nas nossas crenças para compor a avaliação.<br><br>
+<b>Obs.</b>: As alterações feitas aqui não afetarão a hierarquia cadastrada nos meios oficiais, caso seja um erro de cadastro, a correção nos meios oficiais deverá ser solicitada aos devidos responsáveis.","<style>.tableHeaderBar td{background-color: #2B5D78 !important,}.tableHeaderLabelAlt td{background-color: #00C0F2 !important,padding: 5px 0px 0px 5px,}.tableHeaderLabelAlt td a{background-color: #00C0F2 !important,color: #365E28 !important,}.tableHeaderLabelAlt td h3{color: #FFF,}.tableHeaderBar{font-size: 17px !important,color: #FFF !important,padding: 5px 0px 0px 5px,}</style>
+Değerlendiriciler önceden kayıtlı hiyerarşiye göre tanımlanır. Herhangi bir değişiklik gerekli ise, buna göre hareket edebilirsiniz. Sürecin başarısı için bu tanımın çok önemli olduğuna dikkat edin. Seçilen kişilerin değerlendirilen kişiyle şu anda birlikte çalıştığını veya daha önce çalışmış olduğunu ve değerlendirme yapmak üzere bilgimiz dahilinde sağlam argümanlara sahip olduğunu dikkate alarak değişikliği yapın.<br><br>
+<b>Not:</b> Burada yapılan değişiklikler, resmi ortamda kaydedilen hiyerarşiyi etkilemez, eğer kaydedilmesi yanlış ise, resmi ortamdaki düzeltme sorumlu taraflardan istenmelidir.",
+MsgRatersErroMax,en_US,,"The actual number participants in the category ""[[CATEGORY]]"" is [[ACTUAL_COUNT]] and needs to be at most [[EXPECTED_COUNT]]",,"The actual number participants in the category ""[[CATEGORY]]"" is [[ACTUAL_COUNT]] and needs to be at most [[EXPECTED_COUNT]]","El número actual de participantes en la categoría ""[[CATEGORY]]"" es de [[ACTUAL_COUNT]] y precise ser como máximo de [[EXPECTED_COUNT]]","Le nombre réel de participants dans la catégorie ""[[CATEGORY]]"" is [[ACTUAL_COUNT]] et doit être au plus [[EXPECTED_COUNT]]","O número atual de avaliadores na categoria ""[[CATEGORY]]"" é [[ACTUAL_COUNT]] e o número máximo esperado é de [[EXPECTED_COUNT]]","""[[CATEGORY]]"" kategorisindeki mevcut katılımcı sayısı [[ACTUAL_COUNT]] olarak belirlenmiştir ve bu sayının en fazla [[EXPECTED_COUNT]] olması beklenmektedir",
+SecJobPerformance,en_US,,"Job Performance",,"Job Performance","Desempeño Laboral","Performance du poste","Desempenho na Função","İş Performansı",
+rating,en_US,,"Rating",,"Rating","Valoración","Estimation","Avaliação","Derece",
+Gestor,en_US,,"Evaluator Manager",,"Evaluator Manager","Manager Evaluador","Gestionnaire / responsable Évaluateur","Gestor Avaliador","Değerleme Uzmanı yöneticisi",

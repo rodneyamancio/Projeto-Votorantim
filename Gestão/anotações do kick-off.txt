@@ -1,0 +1,6 @@
+Falar o que é o SFSF
+Colocar o escopo do projeto divido pelos módulos
+Quebrar o macro cronograma em ondas sem apresentar datas marcando as datas mais importantes
+mostrar o site do projeto
+nome do projeto
+apresentar o calendario do projeto

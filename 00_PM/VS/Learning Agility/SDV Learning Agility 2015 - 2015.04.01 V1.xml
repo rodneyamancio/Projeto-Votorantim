@@ -1,0 +1,249 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE sf-form PUBLIC
+ "-//SuccessFactors, Inc.//DTD V4 Form 1.0//EN"
+ "http://svn/viewvc/svn/V4/trunk/src/com/sf/dtd/sf-form.dtd?view=co">
+<sf-form locale="pt_BR">
+  <fm-meta>
+    <meta-form-id>-1</meta-form-id>
+    <meta-rated>true</meta-rated>
+    <meta-rating>0.0</meta-rating>
+    <meta-scale>0.0</meta-scale>
+    <meta-grp-label><![CDATA[Group]]></meta-grp-label>
+    <fm-sect-scale show-value="true">
+      <scale-source>1</scale-source>
+      <scale-id><![CDATA[Agilidade de Aprendizagem]]></scale-id>
+      <scale-type><![CDATA[null]]></scale-type>
+    </fm-sect-scale>
+    <meta-item-weight-floor-ceiling-option>error</meta-item-weight-floor-ceiling-option>
+    <enable-previous-step-button><![CDATA[false]]></enable-previous-step-button>
+    <enable-delete-button><![CDATA[false]]></enable-delete-button>
+    <button-permission type="none">
+      <role-name>*</role-name>
+      <button refid="delete"/>
+      <button refid="get-comments"/>
+      <button refid="reject"/>
+      <button refid="get-edits"/>
+      <button refid="get-comments"/>
+      <route-step stepid="*"/>
+    </button-permission>
+  </fm-meta>
+  <sf-pmreview no-calc="false" overall-rating="true" rate-by-adding-values="false" weight-lockdown="true" show-weight="true">
+    <userinfo-sect>
+      <fm-sect index="0" mgt-only="false" split-cmt="false" cmt-opt="1">
+    <fm-sect-name msgKey="SecFunc"><![CDATA[Informações do Empregado]]></fm-sect-name>
+        <fm-sect-intro><![CDATA[<style>.tableHeaderBar td{background-color: #4e4d50 !important;}.tableHeaderLabelAlt td{background-color: #00C0F2 !important;padding: 5px 0px 0px 5px;}.tableHeaderLabelAlt td a{background-color: #00C0F2 !important;color: #365E28 !important;}.tableHeaderLabelAlt td h3{color: #FFF;}.tableHeaderBar{font-size: 17px !important;color: #FFF !important;padding: 5px 0px 0px 5px;}</style>]]></fm-sect-intro>
+        <fm-sect-config>
+          <rating-label><![CDATA[Rating]]></rating-label>
+          <rating-label-others><![CDATA[Rating]]></rating-label-others>
+          <default-rating><![CDATA[unrated]]></default-rating>
+          <weight-total><![CDATA[0.0]]></weight-total>
+          <hidden-strength-threshold>0.0</hidden-strength-threshold>
+          <blind-spot-threshold>0.0</blind-spot-threshold>
+          <section-permission type="enabled">
+            <role-name>*</role-name>
+            <route-step stepid="*"/>
+          </section-permission>
+          <weight-total-option><![CDATA[none]]></weight-total-option>
+          <num-decimal-places>2</num-decimal-places>
+          <publish-button-label><![CDATA[Publish Content]]></publish-button-label>
+        </fm-sect-config>
+        <fm-element index="0" type="3" waca="true">
+          <ekey><![CDATA[FIRSTNAME]]></ekey>
+          <ename><![CDATA[]]></ename>
+          <evalue><![CDATA[]]></evalue>
+        </fm-element>
+        <fm-element index="1" type="3" sync-until-completion="false" waca="true">
+          <ekey><![CDATA[TITLE]]></ekey>
+          <ename><![CDATA[]]></ename>
+          <evalue><![CDATA[]]></evalue>
+        </fm-element>
+        <!--<fm-element index="2" type="3" sync-until-completion="false" waca="true">
+          <ekey><![CDATA[MANAGERID]]></ekey>
+          <ename><![CDATA[]]></ename>
+          <evalue><![CDATA[]]></evalue>
+        </fm-element>-->
+        <fm-element index="3" type="3" waca="true">
+          <ekey><![CDATA[MANAGER]]></ekey>
+          <ename><![CDATA[]]></ename>
+          <evalue><![CDATA[]]></evalue>
+        </fm-element>
+      </fm-sect>
+    </userinfo-sect>
+    <competency-sect index="1" configurable="false" mgt-only="false" use-jobcode="false" use-core-comp="false" category-filter-opt="no-filter" no-rate="false" no-weight="true" summ-opt="999" split-cmt="false" rating-opt="0" cmt-opt="0" suppress-item-comments="0" behavior-rating-opt="0" behavior-cmt-opt="0" behavior-mode-opt="0" in-summ-display="true" in-overall-rating="true" no-group="false" use-behavior="false" if-no-ratings-then-ignore-section="false" lock-item-weights="false" in-objcomp-summ-display="false" in-objcomp-summ-overall-rating="false" show-comp-expected-rating="false" show-comp-proficiency-level="false" comp-expected-rating-format="0" show-behavior-expected-rating="false" behavior-expected-rating-format="0" behavior-weighted="false" min-competencies-required="-2147483648" max-competencies-allowed="2147483647" sect-mode="EZ-Rater" ez-rater-expand-all="false" show-calculated-section-rating="true" lock-behavior-content="false" hide-waca="true">
+      <comp-sect-name msgKey="SecPotencial"><![CDATA[Agilidade de Aprendizagem]]></comp-sect-name>
+      <comp-sect-intro msgKey="IntroPotencial"><![CDATA[<img src="https://cprogerwin0027.websiteseguro.com/gruposou1/SF/Votorantim/PM/img_vertical_axis_PT.jpg"><br>]]></comp-sect-intro>
+      <fm-sect-config>
+        <section-color><![CDATA[]]></section-color>
+        <rating-label msgKey="rating"><![CDATA[Rating]]></rating-label>
+        <rating-label-others msgKey="rating"><![CDATA[Rating]]></rating-label-others>
+        <default-rating msgKey="defaultRatingLearningAgility"><![CDATA[unrated]]></default-rating>
+        <hidden-strength-threshold>0.0</hidden-strength-threshold>
+        <blind-spot-threshold>0.0</blind-spot-threshold>
+        <section-permission type="enabled">
+          <role-name>*</role-name>
+          <route-step stepid="*"/>
+        </section-permission>
+        <section-permission type="enabled">
+          <role-name>*</role-name>
+          <route-step stepid="evaluation"/>
+        </section-permission>
+        <required-fields>
+          <role-name>*</role-name>
+          <field refid="item-rating" min-value="-1.0" max-value="-1.0"/>
+          <route-step stepid="*"/>
+          <send-action sendid="next_step"/>
+        </required-fields>
+        <weight-total-option><![CDATA[warn]]></weight-total-option>
+        <num-decimal-places>2</num-decimal-places>
+        <publish-button-label><![CDATA[Publicar Conteúdo]]></publish-button-label>
+        <ez-rater show-gap="false"/>
+      </fm-sect-config>
+      <action-permission type="none">
+        <role-name>*</role-name>
+        <action refid="add-item"/>
+        <action refid="remove-item"/>
+        <route-step stepid="*"/>
+      </action-permission>
+      <field-permission type="none">
+        <role-name>*</role-name>
+        <field refid="item-comments"/>
+        <field refid="section-comments"/>
+        <route-step stepid="*"/>
+      </field-permission>
+      <field-permission type="none">
+        <role-name>*</role-name>
+        <field refid="rating-scale-label-link"/>
+        <route-step stepid="*"/>
+      </field-permission>
+      <sect-weight>100.0</sect-weight>
+      <sect-weight-4-objcomp-summary>100.0</sect-weight-4-objcomp-summary>
+      <fm-sect-scale show-value="false">
+        <scale-source>1</scale-source>
+        <scale-id><![CDATA[Agilidade de Aprendizagem]]></scale-id>
+        <scale-type><![CDATA[HORIZONTAL_RADIO]]></scale-type>
+      </fm-sect-scale>
+      <fm-competency index="0" removable="false">
+        <fm-comp-id>207</fm-comp-id>
+        <fm-comp-name><![CDATA[]]></fm-comp-name>
+        <fm-comp-desc><![CDATA[]]></fm-comp-desc>
+      </fm-competency>
+      <fm-competency index="1" removable="false">
+        <fm-comp-id>199</fm-comp-id>
+        <fm-comp-name><![CDATA[]]></fm-comp-name>
+        <fm-comp-desc><![CDATA[]]></fm-comp-desc>
+      </fm-competency>
+      <fm-competency index="2" removable="false">
+        <fm-comp-id>203</fm-comp-id>
+        <fm-comp-name><![CDATA[]]></fm-comp-name>
+        <fm-comp-desc><![CDATA[]]></fm-comp-desc>
+      </fm-competency>
+      <fm-competency index="3" removable="false">
+        <fm-comp-id>204</fm-comp-id>
+        <fm-comp-name><![CDATA[]]></fm-comp-name>
+        <fm-comp-desc><![CDATA[]]></fm-comp-desc>
+      </fm-competency>
+      <fm-competency index="4" removable="false">
+        <fm-comp-id>195</fm-comp-id>
+        <fm-comp-name><![CDATA[]]></fm-comp-name>
+        <fm-comp-desc><![CDATA[]]></fm-comp-desc>
+      </fm-competency>
+      <fm-competency index="5" removable="false">
+        <fm-comp-id>193</fm-comp-id>
+        <fm-comp-name><![CDATA[]]></fm-comp-name>
+        <fm-comp-desc><![CDATA[]]></fm-comp-desc>
+      </fm-competency>
+      <fm-competency index="6" removable="false">
+        <fm-comp-id>208</fm-comp-id>
+        <fm-comp-name><![CDATA[]]></fm-comp-name>
+        <fm-comp-desc><![CDATA[]]></fm-comp-desc>
+      </fm-competency>
+      <fm-competency index="7" removable="false">
+        <fm-comp-id>201</fm-comp-id>
+        <fm-comp-name><![CDATA[]]></fm-comp-name>
+        <fm-comp-desc><![CDATA[]]></fm-comp-desc>
+      </fm-competency>
+      <fm-competency index="8" removable="false">
+        <fm-comp-id>200</fm-comp-id>
+        <fm-comp-name><![CDATA[]]></fm-comp-name>
+        <fm-comp-desc><![CDATA[]]></fm-comp-desc>
+      </fm-competency>
+      <fm-competency index="9" removable="false">
+        <fm-comp-id>197</fm-comp-id>
+        <fm-comp-name><![CDATA[]]></fm-comp-name>
+        <fm-comp-desc><![CDATA[]]></fm-comp-desc>
+      </fm-competency>
+      <fm-competency index="10" removable="false">
+        <fm-comp-id>198</fm-comp-id>
+        <fm-comp-name><![CDATA[]]></fm-comp-name>
+        <fm-comp-desc><![CDATA[]]></fm-comp-desc>
+      </fm-competency>
+      <fm-competency index="11" removable="false">
+        <fm-comp-id>196</fm-comp-id>
+        <fm-comp-name><![CDATA[]]></fm-comp-name>
+        <fm-comp-desc><![CDATA[]]></fm-comp-desc>
+      </fm-competency>
+      <fm-competency index="12" removable="false">
+        <fm-comp-id>202</fm-comp-id>
+        <fm-comp-name><![CDATA[]]></fm-comp-name>
+        <fm-comp-desc><![CDATA[]]></fm-comp-desc>
+      </fm-competency>
+      <fm-competency index="13" removable="false">
+        <fm-comp-id>194</fm-comp-id>
+        <fm-comp-name><![CDATA[]]></fm-comp-name>
+        <fm-comp-desc><![CDATA[]]></fm-comp-desc>
+      </fm-competency>
+      <fm-competency index="14" removable="false">
+        <fm-comp-id>206</fm-comp-id>
+        <fm-comp-name><![CDATA[]]></fm-comp-name>
+        <fm-comp-desc><![CDATA[]]></fm-comp-desc>
+      </fm-competency>
+      <meta-grp-label><![CDATA[Group]]></meta-grp-label>
+    </competency-sect>
+    <custom-sect>
+      <fm-sect index="2" mgt-only="false" split-cmt="false" cmt-opt="1">
+    <fm-sect-name msgKey="SecCustom180_360"><![CDATA[]]></fm-sect-name>
+        <fm-sect-intro msgKey="IntroCustomLearningAgility"/>
+        <fm-sect-config>
+          <rating-label><![CDATA[Rating]]></rating-label>
+          <rating-label-others><![CDATA[Rating]]></rating-label-others>
+          <default-rating><![CDATA[unrated]]></default-rating>
+          <hidden-strength-threshold>0.0</hidden-strength-threshold>
+          <blind-spot-threshold>0.0</blind-spot-threshold>
+          <num-decimal-places>2</num-decimal-places>
+          <publish-button-label><![CDATA[Publish Content]]></publish-button-label>
+        </fm-sect-config>
+      </fm-sect>
+    </custom-sect>
+    <summary-sect index="3" mgt-only="false" manual-rating="false" override-unrated="false" split-cmt="false" rating-opt="0" cmt-opt="1" show-listing="true" rating-mode="text" use-adjusted-scale-for-section-header-rating="0" show-group-matrix="false" overall-rating-display-order="manual-calc">
+      <summary-sect-name msgKey="SecResumo"><![CDATA[Resumo]]></summary-sect-name>
+      <summary-sect-intro msgKey="IntroResumoPMPotencial"><![CDATA[Confira aqui sua avaliação consolidada]]></summary-sect-intro>
+      <fm-sect-config>
+        <rating-label><![CDATA[Rating]]></rating-label>
+        <rating-label-others><![CDATA[Rating]]></rating-label-others>
+        <default-rating><![CDATA[unrated]]></default-rating>
+        <weight-total><![CDATA[0.0]]></weight-total>
+        <hidden-strength-threshold>0.0</hidden-strength-threshold>
+        <blind-spot-threshold>0.0</blind-spot-threshold>
+        <section-permission type="enabled">
+          <role-name>EM</role-name>
+          <route-step stepid="evaluation"/>
+        </section-permission>
+        <section-permission type="hidden">
+          <role-name>E/EH</role-name>
+          <route-step stepid="*"/>
+        </section-permission>
+        <weight-total-option><![CDATA[warn]]></weight-total-option>
+        <num-decimal-places>2</num-decimal-places>
+        <publish-button-label><![CDATA[Publish Content]]></publish-button-label>
+        <ez-rater show-gap="false"/>
+      </fm-sect-config>
+      <field-permission type="read">
+        <role-name>EM</role-name>
+        <field refid="rating-scale-label-link"/>
+        <route-step stepid="evaluation"/>
+      </field-permission>
+    </summary-sect>
+  </sf-pmreview>
+</sf-form>
+
+

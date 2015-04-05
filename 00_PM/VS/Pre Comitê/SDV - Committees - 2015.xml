@@ -1,0 +1,405 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE sf-form PUBLIC
+ "-//SuccessFactors, Inc.//DTD V4 Form 1.0//EN"
+ "http://svn/viewvc/svn/V4/trunk/src/com/sf/dtd/sf-form.dtd?view=co">
+<sf-form locale="pt_BR">
+  <fm-meta>
+    <meta-form-id>-1</meta-form-id>
+    <meta-rated>true</meta-rated>
+    <meta-rating>0.0</meta-rating>
+    <meta-scale>0.0</meta-scale>
+    <meta-grp-label><![CDATA[Group]]></meta-grp-label>
+    <fm-sect-scale show-value="true">
+      <scale-source>1</scale-source>
+      <scale-id><![CDATA[Escala Crenças e Competências]]></scale-id>
+      <scale-type><![CDATA[null]]></scale-type>
+    </fm-sect-scale>
+    <meta-item-weight-floor-ceiling-option>error</meta-item-weight-floor-ceiling-option>
+    <button-permission type="none">
+      <role-name>*</role-name>
+      <button refid="delete"/>
+      <button refid="get-comments"/>
+      <button refid="reject"/>
+      <button refid="get-edits"/>
+      <route-step stepid="*"/>
+    </button-permission>
+    <button-permission type="enabled">
+      <role-name>EX</role-name>
+      <button refid="get-comments"/>
+      <route-step stepid="prework"/>
+    </button-permission>
+  </fm-meta>
+  <sf-pmreview no-calc="false" overall-rating="true" rate-by-adding-values="false" weight-lockdown="true" show-weight="true">
+    <userinfo-sect>
+      <fm-sect index="0" mgt-only="false" split-cmt="false" cmt-opt="1">
+    <fm-sect-name msgKey="SecFunc"><![CDATA[Informações do Funcionário]]></fm-sect-name>
+        <fm-sect-intro><![CDATA[<style>.tableHeaderBar td{background-color: #4e4d50 !important;}.tableHeaderLabelAlt td{background-color: #00C0F2 !important;padding: 5px 0px 0px 5px;}.tableHeaderLabelAlt td a{background-color: #00C0F2 !important;color: #365E28 !important;}.tableHeaderLabelAlt td h3{color: #FFF;}.tableHeaderBar{font-size: 17px !important;color: #FFF !important;padding: 5px 0px 0px 5px;}</style>]]></fm-sect-intro>
+        <fm-sect-config>
+          <rating-label><![CDATA[Rating]]></rating-label>
+          <rating-label-others><![CDATA[Rating]]></rating-label-others>
+          <default-rating><![CDATA[unrated]]></default-rating>
+          <weight-total><![CDATA[0.0]]></weight-total>
+          <hidden-strength-threshold>0.0</hidden-strength-threshold>
+          <blind-spot-threshold>0.0</blind-spot-threshold>
+          <section-permission type="enabled">
+            <role-name>*</role-name>
+            <route-step stepid="*"/>
+          </section-permission>
+          <weight-total-option><![CDATA[none]]></weight-total-option>
+          <num-decimal-places>2</num-decimal-places>
+          <publish-button-label><![CDATA[Publish Content]]></publish-button-label>
+        </fm-sect-config>
+        <fm-element index="1" type="3" waca="true">
+          <ekey><![CDATA[FIRSTNAME]]></ekey>
+          <ename><![CDATA[]]></ename>
+          <evalue><![CDATA[]]></evalue>
+        </fm-element>
+        <fm-element index="2" type="3" waca="true">
+          <ekey><![CDATA[LASTNAME]]></ekey>
+          <ename><![CDATA[]]></ename>
+          <evalue><![CDATA[]]></evalue>
+        </fm-element>
+        <fm-element index="3" type="3" sync-until-completion="false" waca="true">
+          <ekey><![CDATA[TITLE]]></ekey>
+          <ename><![CDATA[]]></ename>
+          <evalue><![CDATA[]]></evalue>
+        </fm-element>
+        <fm-element index="4" type="3" sync-until-completion="false" waca="true">
+          <ekey><![CDATA[MANAGER]]></ekey>
+          <ename><![CDATA[]]></ename>
+          <evalue><![CDATA[]]></evalue>
+        </fm-element>
+        <fm-element index="5" type="3" waca="true">
+          <ekey><![CDATA[CUSTOM06]]></ekey>
+          <ename><![CDATA[]]></ename>
+          <evalue><![CDATA[]]></evalue>
+        </fm-element>
+        <fm-element index="6" type="3" waca="true">
+          <ekey><![CDATA[CUSTOM07]]></ekey>
+          <ename><![CDATA[]]></ename>
+          <evalue><![CDATA[]]></evalue>
+        </fm-element>
+      </fm-sect>
+    </userinfo-sect>
+    <objective-sect index="2" configurable="true" mgt-only="false" use-jobcode="false" no-rate="true" develop-goal="true" show-learning-activity-competency="false" no-weight="true" summ-opt="9999" split-cmt="true" rating-opt="0" cmt-opt="2" in-summ-display="true" in-overall-rating="true" no-group="true" use-milestone="false" if-no-ratings-then-ignore-section="false" lock-item-weights="false" in-objcomp-summ-display="true" in-objcomp-summ-overall-rating="true" auto-pop-weights="true" show-obj-expected-rating="false" min-goals-required="0" max-goals-allowed="9999" allow-draft-tgm-goals="false" hide-addexistinggoals-btn="true" sect-mode="normal" ez-rater-expand-all="false" obj-edit="popup" show-calculated-section-rating="true" avoid-obj-plan-state-change-by-multiple-forms="false">
+      <obj-sect-name msgKey="SecPrework"><![CDATA[Pré-Work]]></obj-sect-name>
+      <obj-sect-intro msgKey="IntroPreWork"><![CDATA[Gestor,<br><br>
+Este material é seu trabalho prévio a ser realizado como preparação para o Comitê de Avaliação.
+Você deve preencher este material considerando a argumentação que você apresentará no comitê.<br><br>
+Seja objetivo e baseie sua avaliação em fatos e dados. Utilize como suporte os conceitos sobre 9 Box e Potencial.
+Caso tenha dúvidas, procure a equipe de Gente & Gestão.<br><br>
+Inicie pelo preenchimento das informações adicionais do Dossiê do colaborador:
+[[PORTLETLINK|21|9|Justificativa para Posição do Box]]<br>
+[[PORTLETLINK|21|10|Destaques da Avaliação]]<br>
+[[PORTLETLINK|21|11|Evolução em Relação ao Ciclo Anterior]]<br>
+[[PORTLETLINK|21|12|Desafios Atuais]]<br>
+[[PORTLETLINK|21|13|Próximos Passos de Carreira / Mobilidade ]]<br>
+[[PORTLETLINK|21|14|Foco Desenvolvimento para Próximos Passos]]<br>
+[[PORTLETLINK|21|16|Posição no 9-Box]]
+]]></obj-sect-intro>
+      <fm-sect-config>
+        <rating-label><![CDATA[Rating]]></rating-label>
+        <rating-label-others><![CDATA[Rating]]></rating-label-others>
+        <default-rating><![CDATA[unrated]]></default-rating>
+        <weight-total><![CDATA[100.0]]></weight-total>
+        <hidden-strength-threshold>0.0</hidden-strength-threshold>
+        <blind-spot-threshold>0.0</blind-spot-threshold>
+        <item-weights>
+          <item-weight-floor>0.0</item-weight-floor>
+          <item-weight-ceiling>100.0</item-weight-ceiling>
+        </item-weights>
+        <section-permission type="hidden">
+          <role-name>*</role-name>
+          <route-step stepid="*"/>
+        </section-permission>
+        <section-permission type="disabled">
+          <role-name>EX</role-name>
+          <role-name>EH</role-name>
+          <route-step stepid="prework"/>
+          <route-step stepid="committee"/>
+        </section-permission>
+        <section-permission type="hidden">
+          <role-name>EH</role-name>
+          <route-step stepid="prework"/>
+        </section-permission>
+        <section-permission type="hidden">
+          <role-name>EX</role-name>
+          <route-step stepid="committee"/>
+        </section-permission>
+        <weight-total-option><![CDATA[enforce]]></weight-total-option>
+        <num-decimal-places>2</num-decimal-places>
+        <publish-button-label><![CDATA[Publish Content]]></publish-button-label>
+        <normalize-section-rating><![CDATA[false]]></normalize-section-rating>
+      </fm-sect-config>
+      <action-permission type="none">
+        <role-name>*</role-name>
+        <action refid="add-item"/>
+        <action refid="remove-item"/>
+      </action-permission>
+      <sect-weight>0.0</sect-weight>
+      <sect-weight-4-objcomp-summary>0.0</sect-weight-4-objcomp-summary>
+      <fm-sect-scale show-value="true">
+        <scale-source>1</scale-source>
+        <scale-id><![CDATA[Escala Metas]]></scale-id>
+        <scale-type><![CDATA[DROPDOWN]]></scale-type>
+      </fm-sect-scale>
+      <obj-sect-type autosync="false"><![CDATA[custom]]></obj-sect-type>
+      <obj-sect-plan-id>-1</obj-sect-plan-id>
+      <meta-grp-label><![CDATA[Group]]></meta-grp-label>
+    </objective-sect>
+    <objective-sect index="3" configurable="false" mgt-only="false" use-jobcode="false" no-rate="true" develop-goal="true" show-learning-activity-competency="false" no-weight="true" summ-opt="9999" split-cmt="true" rating-opt="0" cmt-opt="1" in-summ-display="true" in-overall-rating="true" no-group="true" use-milestone="false" if-no-ratings-then-ignore-section="false" lock-item-weights="false" in-objcomp-summ-display="true" in-objcomp-summ-overall-rating="true" auto-pop-weights="true" show-obj-expected-rating="false" min-goals-required="0" max-goals-allowed="9999" allow-draft-tgm-goals="false" hide-addexistinggoals-btn="true" sect-mode="normal" ez-rater-expand-all="false" obj-edit="popup" show-calculated-section-rating="true" avoid-obj-plan-state-change-by-multiple-forms="false">
+      <obj-sect-name msgKey="SecFeedback"><![CDATA[Instruções para Feedback]]></obj-sect-name>
+      <obj-sect-intro msgKey="IntroFeedback"><![CDATA[Para acessar o histórico da avaliação de crenças, clique no ícone]]></obj-sect-intro>
+      <fm-sect-config>
+        <rating-label><![CDATA[Rating]]></rating-label>
+        <rating-label-others><![CDATA[Rating]]></rating-label-others>
+        <default-rating><![CDATA[unrated]]></default-rating>
+        <weight-total><![CDATA[100.0]]></weight-total>
+        <hidden-strength-threshold>0.0</hidden-strength-threshold>
+        <blind-spot-threshold>0.0</blind-spot-threshold>
+        <item-weights>
+          <item-weight-floor>0.0</item-weight-floor>
+          <item-weight-ceiling>100.0</item-weight-ceiling>
+        </item-weights>
+        <section-permission type="hidden">
+          <role-name>*</role-name>
+          <route-step stepid="*"/>
+        </section-permission>
+        <section-permission type="enabled">
+          <role-name>EX</role-name>
+          <route-step stepid="feedback"/>
+        </section-permission>
+        <section-permission type="disabled">
+          <role-name>E</role-name>
+          <route-step stepid="signature"/>
+        </section-permission>
+        <required-fields>
+          <role-name>EX</role-name>
+          <field refid="section-comments" min-value="1.0" max-value="-1.0"/>
+          <route-step stepid="feedback"/>
+          <send-action sendid="next_step"/>
+        </required-fields>
+        <weight-total-option><![CDATA[enforce]]></weight-total-option>
+        <num-decimal-places>2</num-decimal-places>
+        <publish-button-label><![CDATA[Publish Content]]></publish-button-label>
+        <normalize-section-rating><![CDATA[false]]></normalize-section-rating>
+      </fm-sect-config>
+      <action-permission type="none">
+        <role-name>*</role-name>
+        <action refid="add-item"/>
+        <action refid="remove-item"/>
+      </action-permission>
+      <sect-weight>0.0</sect-weight>
+      <sect-weight-4-objcomp-summary>0.0</sect-weight-4-objcomp-summary>
+      <fm-sect-scale show-value="true">
+        <scale-source>1</scale-source>
+        <scale-id><![CDATA[Escala Metas]]></scale-id>
+        <scale-type><![CDATA[DROPDOWN]]></scale-type>
+      </fm-sect-scale>
+      <obj-sect-type autosync="false"><![CDATA[custom]]></obj-sect-type>
+      <obj-sect-plan-id>-1</obj-sect-plan-id>
+      <meta-grp-label><![CDATA[Group]]></meta-grp-label>
+    </objective-sect>
+    <objective-sect index="4" configurable="true" mgt-only="false" use-jobcode="false" no-rate="true" develop-goal="true" show-learning-activity-competency="false" no-weight="true" summ-opt="9999" split-cmt="true" rating-opt="0" cmt-opt="3" in-summ-display="false" in-overall-rating="false" no-group="true" use-milestone="false" if-no-ratings-then-ignore-section="false" lock-item-weights="false" in-objcomp-summ-display="true" in-objcomp-summ-overall-rating="true" auto-pop-weights="true" show-obj-expected-rating="false" min-goals-required="2" max-goals-allowed="9999" allow-draft-tgm-goals="false" hide-addexistinggoals-btn="true" sect-mode="normal" ez-rater-expand-all="false" obj-edit="popup" show-calculated-section-rating="true" avoid-obj-plan-state-change-by-multiple-forms="false">
+      <obj-sect-name msgKey="SecPDI"><![CDATA[Plano de Desenvolvimento]]></obj-sect-name>
+      <obj-sect-intro msgKey="IntroPDIComite"><![CDATA[O que considerar na construção das ações? <br><br>
+        Autorreflexão do feedback recebido: foco nas crenças a desenvolver e potencializar; <br>
+        Quais as minhas expectativas de carreira?    <br>
+        O que devo fazer para chegar lá?       <br>
+        O que você está fazendo para construir o seu futuro? <br><br>
+Contemplar ações que sejam claras, possíveis de serem realizadas e desafiadoras considerando 4 esferas: Comprometimento, Treinamento, Prática e Role - Modeling.]]></obj-sect-intro>
+      <fm-sect-config>
+        <rating-label><![CDATA[Rating]]></rating-label>
+        <rating-label-others><![CDATA[Rating]]></rating-label-others>
+        <default-rating><![CDATA[unrated]]></default-rating>
+        <weight-total><![CDATA[100.0]]></weight-total>
+        <hidden-strength-threshold>0.0</hidden-strength-threshold>
+        <blind-spot-threshold>0.0</blind-spot-threshold>
+        <item-weights>
+          <item-weight-floor>0.0</item-weight-floor>
+          <item-weight-ceiling>100.0</item-weight-ceiling>
+        </item-weights>
+        <section-permission type="hidden">
+          <role-name>*</role-name>
+          <route-step stepid="prework"/>
+        </section-permission>
+        <section-permission type="disabled">
+          <role-name>EH</role-name>
+          <route-step stepid="committee"/>
+        </section-permission>
+        <section-permission type="enabled">
+          <role-name>EX</role-name>
+          <route-step stepid="feedback"/>
+        </section-permission>
+        <section-permission type="disabled">
+          <role-name>E</role-name>
+          <route-step stepid="signature"/>
+        </section-permission>
+        <weight-total-option><![CDATA[enforce]]></weight-total-option>
+        <num-decimal-places>2</num-decimal-places>
+        <publish-button-label><![CDATA[Publish Content]]></publish-button-label>
+        <normalize-section-rating><![CDATA[false]]></normalize-section-rating>
+      </fm-sect-config>
+      <action-permission type="enabled">
+        <role-name>E</role-name>
+        <role-name>EX</role-name>
+        <action refid="add-item"/>
+        <action refid="remove-item"/>
+      </action-permission>
+      <sect-weight>0.0</sect-weight>
+      <sect-weight-4-objcomp-summary>0.0</sect-weight-4-objcomp-summary>
+      <fm-sect-scale show-value="true">
+        <scale-source>1</scale-source>
+        <scale-id><![CDATA[Escala Metas]]></scale-id>
+        <scale-type><![CDATA[DROPDOWN]]></scale-type>
+      </fm-sect-scale>
+      <obj-sect-type autosync="true"><![CDATA[plan]]></obj-sect-type>
+      <obj-sect-plan-id>2001</obj-sect-plan-id>
+      <meta-grp-label><![CDATA[Group]]></meta-grp-label>
+    </objective-sect>
+    <custom-sect>
+      <fm-sect index="1" mgt-only="false" split-cmt="false" cmt-opt="1">
+    <fm-sect-name msgKey="SecPerfPot"><![CDATA[Box Placement]]></fm-sect-name>
+        <fm-sect-intro msgKey="IntroPerfPot"/>
+        <fm-sect-config>
+          <rating-label><![CDATA[Rating]]></rating-label>
+          <rating-label-others><![CDATA[Rating]]></rating-label-others>
+          <default-rating><![CDATA[unrated]]></default-rating>
+          <hidden-strength-threshold>0.0</hidden-strength-threshold>
+          <blind-spot-threshold>0.0</blind-spot-threshold>
+          <section-permission type="hidden">
+            <role-name>*</role-name>
+            <route-step stepid="*"/>
+          </section-permission>
+          <section-permission type="disabled">
+            <role-name>EX</role-name>
+            <route-step stepid="prework"/>
+          </section-permission>
+          <section-permission type="disabled">
+            <role-name>EH</role-name>
+            <route-step stepid="committee"/>
+          </section-permission>
+          <num-decimal-places>2</num-decimal-places>
+          <publish-button-label><![CDATA[Publish Content]]></publish-button-label>
+        </fm-sect-config>
+      </fm-sect>
+      <fm-sect index="5" mgt-only="false" split-cmt="false" cmt-opt="1">
+    <fm-sect-name msgKey="SecCustom"><![CDATA[Validação de Preenchimento]]></fm-sect-name>
+        <fm-sect-intro msgKey="IntroCustom"><![CDATA[Confirmo o preenchimento de todos os campos do pré-work e que manterei a confidencialidade deste material.]]></fm-sect-intro>
+        <fm-sect-config>
+          <rating-label><![CDATA[Rating]]></rating-label>
+          <rating-label-others><![CDATA[Rating]]></rating-label-others>
+          <default-rating><![CDATA[unrated]]></default-rating>
+          <hidden-strength-threshold>0.0</hidden-strength-threshold>
+          <blind-spot-threshold>0.0</blind-spot-threshold>
+          <section-permission type="hidden">
+            <role-name>*</role-name>
+            <route-step stepid="prework"/>
+            <route-step stepid="committee"/>
+            <route-step stepid="feedback"/>
+            <route-step stepid="signature"/>
+          </section-permission>
+          <section-permission type="enabled">
+            <role-name>EX</role-name>
+            <route-step stepid="prework"/>
+          </section-permission>
+          <section-permission type="hidden">
+            <role-name>EH</role-name>
+            <role-name>E</role-name>
+            <route-step stepid="*"/>
+          </section-permission>
+          <required-fields>
+            <role-name>EX</role-name>
+            <field refid="custom-element" min-value="1.0" max-value="-1.0">
+              <ekey>conversa</ekey>
+            </field>
+            <route-step stepid="prework"/>
+            <send-action sendid="next_step"/>
+          </required-fields>
+          <num-decimal-places>2</num-decimal-places>
+          <publish-button-label><![CDATA[Publish Content]]></publish-button-label>
+        </fm-sect-config>
+        <fm-element index="1" type="9" waca="true">
+          <ekey><![CDATA[conversa]]></ekey>
+          <ename msgKey="CampoCustom"><![CDATA[<b> Realizou o Pré-work? </b>]]></ename>
+          <evalue><![CDATA[Sim]]></evalue>
+        </fm-element>
+      </fm-sect>
+      <fm-sect index="7" mgt-only="false" split-cmt="false" cmt-opt="0">
+    <fm-sect-name msgKey="SecCustomFeddback"><![CDATA[Feddback do Gestor Antigo]]></fm-sect-name>
+        <fm-sect-intro msgKey="IntroFeddbackPM"/>
+        <fm-sect-config>
+          <rating-label><![CDATA[Rating]]></rating-label>
+          <rating-label-others><![CDATA[Rating]]></rating-label-others>
+          <default-rating><![CDATA[unrated]]></default-rating>
+          <hidden-strength-threshold>0.0</hidden-strength-threshold>
+          <blind-spot-threshold>0.0</blind-spot-threshold>
+          <section-permission type="enabled">
+            <role-name>EX</role-name>
+            <route-step stepid="prework"/>
+          </section-permission>
+          <section-permission type="hidden">
+            <role-name>*</role-name>
+            <route-step stepid="committee"/>
+            <route-step stepid="feedback"/>
+            <route-step stepid="signature"/>
+          </section-permission>
+          <section-permission type="hidden">
+            <role-name>EH</role-name>
+            <role-name>E</role-name>
+            <route-step stepid="*"/>
+          </section-permission>
+          <num-decimal-places>2</num-decimal-places>
+          <publish-button-label><![CDATA[Publish Content]]></publish-button-label>
+        </fm-sect-config>
+        <field-permission type="write">
+          <role-name>*</role-name>
+          <field refid="section-comments"/>
+          <route-step stepid="prework"/>
+        </field-permission>
+        <field-permission type="read">
+          <role-name>EX</role-name>
+          <field refid="section-comments"/>
+          <route-step stepid="prework"/>
+        </field-permission>
+        <field-permission type="read">
+          <role-name>E</role-name>
+          <field refid="section-comments"/>
+          <route-step stepid="signature"/>
+        </field-permission>
+      </fm-sect>
+    </custom-sect>
+    <signature-sect>
+      <fm-sect index="6" mgt-only="false" split-cmt="false" cmt-opt="0">
+    <fm-sect-name msgKey="SecSignature"><![CDATA[Assinatura]]></fm-sect-name>
+        <fm-sect-intro msgKey="IntroSign"><![CDATA[Confirme aqui que seu processo de avaliação foi consolidado]]></fm-sect-intro>
+        <fm-sect-config>
+          <rating-label><![CDATA[Rating]]></rating-label>
+          <rating-label-others><![CDATA[Rating]]></rating-label-others>
+          <default-rating><![CDATA[unrated]]></default-rating>
+          <weight-total><![CDATA[0.0]]></weight-total>
+          <hidden-strength-threshold>0.0</hidden-strength-threshold>
+          <blind-spot-threshold>0.0</blind-spot-threshold>
+          <section-permission type="enabled">
+            <role-name>*</role-name>
+            <route-step stepid="*"/>
+          </section-permission>
+          <section-permission type="hidden">
+            <role-name>*</role-name>
+            <route-step stepid="prework"/>
+            <route-step stepid="committee"/>
+            <route-step stepid="feedback"/>
+          </section-permission>
+          <required-fields>
+            <role-name>E</role-name>
+            <field refid="section-comments" min-value="1.0" max-value="-1.0"/>
+            <route-step stepid="signature"/>
+            <send-action sendid="sign"/>
+          </required-fields>
+          <num-decimal-places>1</num-decimal-places>
+          <publish-button-label><![CDATA[Publish Content]]></publish-button-label>
+        </fm-sect-config>
+      </fm-sect>
+    </signature-sect>
+  </sf-pmreview>
+</sf-form>

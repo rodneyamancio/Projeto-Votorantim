@@ -1,0 +1,20 @@
+^picklistId,OptionId,minValue,maxValue,value,status,external_code,parentOptionId,en_US,en_DEBUG,pt_BR,es_ES
+tipo,,-1.0,-1.0,-1.0,ACTIVE,,-1,Experience with leading people,,Experiência com liderança de pessoas,Experiencia en el liderazgo de la persona
+tipo,,-1.0,-1.0,-1.0,ACTIVE,,-1,Experience with leading projects,,Experiência com liderança de projetos,Experiencia en el liderazgo de proyectos
+descricao,,-1.0,-1.0,-1.0,ACTIVE,,-1,Less than 1 year,,Menos de 1 ano,Menos que 1 ano
+descricao,,-1.0,-1.0,-1.0,ACTIVE,,-1,1 year,,1 ano,1 ano
+descricao,,-1.0,-1.0,-1.0,ACTIVE,,-1,2 years,,2 anos,2 anos
+descricao,,-1.0,-1.0,-1.0,ACTIVE,,-1,3 years,,3 anos,3 anos
+descricao,,-1.0,-1.0,-1.0,ACTIVE,,-1,4 years,,4 anos,4 anos
+descricao,,-1.0,-1.0,-1.0,ACTIVE,,-1,5 years,,5 anos,5 anos
+descricao,,-1.0,-1.0,-1.0,ACTIVE,,-1,6 years,,6 anos,6 anos
+descricao,,-1.0,-1.0,-1.0,ACTIVE,,-1,7 years,,7 anos,7 anos
+descricao,,-1.0,-1.0,-1.0,ACTIVE,,-1,8 years,,8 anos,8 anos
+descricao,,-1.0,-1.0,-1.0,ACTIVE,,-1,9 years,,9 anos,9 anos
+descricao,,-1.0,-1.0,-1.0,ACTIVE,,-1,10 years,,10 anos,10 anos
+descricao,,-1.0,-1.0,-1.0,ACTIVE,,-1,More than 10 years,,Mais de 10 anos,Mais que 10 anos
+descricao,,-1.0,-1.0,-1.0,ACTIVE,,-1,Less than 01 year,,Menos de 01 ano,Menos que 01 ano
+descricao,,-1.0,-1.0,-1.0,ACTIVE,,-1,01 year,,01 ano,01 ano
+descricao,,-1.0,-1.0,-1.0,ACTIVE,,-1,02 years,,02 anos,02 anos
+descricao,,-1.0,-1.0,-1.0,ACTIVE,,-1,03 years,,03 anos,03 anos
+descricao,,-1.0,-1.0,-1.0,ACTIVE,,-1,04 years,,04 anos,04 anos

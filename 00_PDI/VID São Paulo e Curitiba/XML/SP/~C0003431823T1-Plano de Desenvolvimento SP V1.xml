@@ -1,0 +1,292 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE obj-plan-template PUBLIC "-//SuccessFactors, Inc.//DTD Objective Template 4.0//EN" "objective-template_4_0.dtd">
+<obj-plan-template spellchk="false" new-obj-share-status-public="true" instructions-viewdefault="on" alerts-viewdefault="on" cascade-parent-viewdefault="off" cascade-child-viewdefault="off" pager-max-objs-per-page="9999" pager-max-page-links="0" pager-max-children-per-parent="-1" display-alignment-format="goals" more-details-child-format="goal-plan" share-confirm="true" unshare-confirm="true" allow-group-goal="false" goal-tree-link="false" expand-collapse-categories="false" use-text-for-privacy="false" cws-people-role="true" overwrite-target-population="true" swap-goal-link="false" learning-activity-deep-link="true" show-total-goalscore="false" show-goal-id="false">
+  <obj-plan-id>2003</obj-plan-id>
+  <obj-plan-type>Development</obj-plan-type>
+  <obj-plan-name>PDI - Plano de Desenvolvimento SP</obj-plan-name>
+  <obj-plan-name lang="en_US">PDI - Plano de Desenvolvimento SP</obj-plan-name>
+  <obj-plan-name lang="pt_BR">PDI - Plano de Desenvolvimento</obj-plan-name>
+  <obj-plan-name lang="es-ES">Plano de Desarrollo</obj-plan-name>
+  <obj-plan-desc><![CDATA[PDI - Plano de Desenvolvimento]]></obj-plan-desc>
+  <obj-plan-lastmodified>3/18/14 9:41 AM</obj-plan-lastmodified>
+  <obj-plan-start>01/01/2015</obj-plan-start>
+  <obj-plan-due>12/31/2015</obj-plan-due>
+  <text-replacement for="Instructions">
+  <text lang="pt_BR"><![CDATA[]]></text>
+  </text-replacement>
+  <learning-activities template-id="4005"/>
+  <category id="Goals">
+    <category-name>Development Actions</category-name>
+    <category-name lang="en_US">Development Focus</category-name>
+    <category-name lang="pt_BR">Foco de Desenvolvimento</category-name>
+    <category-name lang="es-ES">Enfoque de Desarrollo</category-name>
+  </category>
+  <field-definition id="name" type="text" required="true" detail="false" viewdefault="on" showlabel="false" field-show-coaching-advisor="false" cascade-update="push-down">
+    <field-label lang="en_US">Development Focus</field-label>
+    <field-label lang="pt_BR">Foco de Desenvolvimento</field-label>
+    <field-label lang="es-ES">Enfoque de Desarrollo</field-label>
+    <field-description>Name</field-description>
+    <field-description lang="en_US">Consider results of the assessment, performance enhancement and evolution</field-description>
+    <field-description lang="pt_BR">Considere resultado da avaliação, reforço de desempenho e evolução</field-description>
+    <field-description lang="es-ES">Considere los resultados de la evaluación, la mejora del rendimiento y la evolución</field-description>
+  </field-definition>
+  <field-definition id="desc" type="textarea" required="false" detail="false" viewdefault="on" showlabel="false" field-show-coaching-advisor="false" cascade-update="push-down">
+    <field-label lang="en_US">Description</field-label>
+    <field-label lang="pt_BR">Descrição</field-label>
+    <field-label lang="es-ES">Descripción</field-label>
+  </field-definition>
+  <field-definition id="metric" type="textarea" required="false" detail="false" viewdefault="on" showlabel="false" field-show-coaching-advisor="false" cascade-update="push-down">
+    <field-label lang="en_US">Measure of Success</field-label>
+    <field-label lang="pt_BR">Métrica</field-label>
+    <field-label lang="es-ES">Metrica</field-label>
+  </field-definition>
+  <field-definition id="purpose" type="enum" required="false" detail="false" viewdefault="on" showlabel="false" reportable="field1" field-show-coaching-advisor="false" cascade-update="push-down">
+    <field-label lang="en_US">Purpose</field-label>
+    <field-label lang="pt_BR">Motivo</field-label>
+    <field-label lang="es-ES">Motivo</field-label>
+    <enum-value value="Current role">
+      <enum-label lang="en_US">Current Role</enum-label>
+      <enum-label lang="pt_BR">Cargo Atual</enum-label>
+      <enum-label lang="es-ES">Cargo Actual</enum-label>
+    </enum-value>
+    <enum-value value="Future role">
+      <enum-label lang="en_US">Future role</enum-label>
+      <enum-label lang="pt_BR">Cargo Futuro</enum-label>
+      <enum-label lang="es-ES">Cargo Futuro</enum-label>
+    </enum-value>
+    </field-definition>
+  <field-definition id="state" type="enum" required="false" detail="false" viewdefault="on" showlabel="false" field-show-coaching-advisor="false" cascade-update="push-down">
+    <field-label lang="en_US">Status</field-label>
+    <field-label lang="pt_BR">Status</field-label>
+    <field-label lang="es-ES">Status</field-label>
+    <enum-value value="Not Started" style="background:white;color:black;">
+      <enum-label lang="en_US">Not Started</enum-label>
+      <enum-label lang="pt_BR">Não Iniciado</enum-label>
+      <enum-label lang="es-ES">No Iniciado</enum-label>
+    </enum-value>
+    <enum-value value="On Track" style="background:yellow;color:black;">
+      <enum-label lang="en_US">On Track</enum-label>
+      <enum-label lang="pt_BR">Em Andamento</enum-label>
+      <enum-label lang="es-ES">En Curso</enum-label>
+    </enum-value>
+    <enum-value value="Behind" style="background:red;color:black;">
+      <enum-label lang="en_US">Cancelled</enum-label>
+      <enum-label lang="pt_BR">Cancelado</enum-label>
+      <enum-label lang="es-ES">Cancelado</enum-label>
+    </enum-value>
+    <enum-value value="Completed" style="background:green;color:white;">
+      <enum-label lang="en_US">Completed</enum-label>
+      <enum-label lang="pt_BR">Concluído</enum-label>
+      <enum-label lang="es-ES">Terminado</enum-label>
+    </enum-value>
+  </field-definition>
+  <field-definition id="start" type="date" required="true" detail="true" viewdefault="on" showlabel="false" field-show-coaching-advisor="false" cascade-update="push-down">
+    <field-label lang="en_US">Start Date</field-label>
+    <field-label lang="pt_BR">Data de Início</field-label>
+    <field-label lang="es-ES">Fecha de Início</field-label>
+  </field-definition>
+  <field-definition id="due" type="date" required="false" detail="true" viewdefault="on" showlabel="false" field-show-coaching-advisor="false" cascade-update="push-down">
+    <field-label lang="en_US">Due Date</field-label>
+    <field-label lang="pt_BR">Data de Término</field-label>
+    <field-label lang="es-ES">Fecha de Fin</field-label>
+  </field-definition>
+  <field-definition id="comentarios" type="textarea" required="false" detail="false" viewdefault="on" showlabel="false" reportable="field2" field-show-coaching-advisor="false" cascade-update="push-down">
+    <field-label lang="en_US">Comments</field-label>
+    <field-label lang="pt_BR">Comentários</field-label>
+    <field-label lang="es-ES">Comentarios</field-label>
+  </field-definition>
+  <permission for="create">
+    <description><![CDATA[Onlythe employee, manager and form reviewers may create goals in a user's plan.]]></description>
+    <role-name><![CDATA[EM]]></role-name>
+    <role-name><![CDATA[EX]]></role-name>
+    <role-name><![CDATA[E]]></role-name>
+  </permission>
+  <permission for="delete">
+    <description><![CDATA[Onlythe employee may delete goals in his/her own plan.]]></description>
+    <role-name><![CDATA[EM]]></role-name>
+    <role-name><![CDATA[EX]]></role-name>
+    <role-name><![CDATA[E]]></role-name>
+  </permission>
+  <permission for="share">
+    <description><![CDATA[Onlythe employee may share and unshare goals in his/her own plan.]]></description>
+    <role-name><![CDATA[]]></role-name>
+  </permission>
+  <permission for="move">
+    <description><![CDATA[Only the employee may move and indent goals in his/her own plan.]]></description>
+    <role-name><![CDATA[]]></role-name>
+  </permission>
+  <permission for="private-access">
+    <description><![CDATA[Employees and their managers up the hierarchy may view unshared/private goals. Parents of cascaded private goals can see the children]]></description>
+    <role-name><![CDATA[E]]></role-name>
+    <role-name><![CDATA[EM+]]></role-name>
+    <role-name><![CDATA[EH]]></role-name>
+  </permission>
+  <field-permission type="read">
+    <description><![CDATA[Everyone may read name and metric]]></description>
+    <role-name><![CDATA[E]]></role-name>
+    <role-name><![CDATA[EM]]></role-name>
+    <role-name><![CDATA[EX]]></role-name>
+    <role-name><![CDATA[EH]]></role-name>
+    <role-name><![CDATA[F]]></role-name>
+    <field refid="name"/>
+    <field refid="desc"/>
+    <field refid="state"/>
+    <field refid="start"/>
+    <field refid="due"/>
+    <field refid="comentarios"/>
+  </field-permission>
+  <field-permission type="write">
+    <description><![CDATA[Theowner, manager and form reviewer may write to all fields]]></description>
+    <role-name><![CDATA[E]]></role-name>
+    <role-name><![CDATA[EM]]></role-name>
+    <role-name><![CDATA[EX]]></role-name>
+    <role-name><![CDATA[F]]></role-name>
+    <field refid="name"/>
+    <field refid="desc"/>
+    <field refid="state"/>
+    <field refid="start"/>
+    <field refid="due"/>
+    <field refid="comentarios"/>
+  </field-permission>
+  <plan-layout>
+    <column weight="15.0">
+      <field refid="name"/>
+    </column>
+    <column weight="15.0">
+      <field refid="metric"/>
+    </column>
+    <column weight="10.0">
+      <field refid="purpose"/>
+    </column>
+    <column weight="15.0">
+      <field refid="desc"/>
+    </column>
+    <column weight="10.0">
+      <field refid="state"/>
+    </column>
+    <column weight="10.0">
+      <field refid="start"/>
+    </column>
+    <column weight="10.0">
+      <field refid="due"/>
+    </column>
+    <column weight="15.0">
+      <field refid="comentarios"/>
+    </column>
+  </plan-layout>
+  <form-layout><![CDATA[#set ($group = "name") 
+
+<table width="100%" cellspacing="0" cellpadding="0">
+  <tr>
+    <td valign="top" width="50%">#if ($display.name) <b>${label.name}:</b><br>
+     ${field.name} #end</td>
+
+    <td>&nbsp;&nbsp;&nbsp;</td>
+
+    <td valign="top" width="50%">#if ($display.competency) <b>${label.competency}:</b><br>
+     ${field.competency} #end</td>
+  </tr>
+</table>## turn off grouping for subsequent fields #set ($group = "") 
+
+<table width="100%" cellspacing="0" cellpadding="0">
+  <tr>
+    <td valign="top" width="50%">
+      <div style="margin:0.5em 0">
+        #if ($display.metric) 
+
+        <div class="objPair" style="display:none" id="${util.newHiddenDivId()}">
+          <b>${label.metric}:</b><br>
+           ${field.metric}
+        </div>#end
+      </div>
+    </td>
+
+    <td valign="top" width="50%">
+      <div style="margin:0.5em 0">
+        #if ($display.purpose) 
+
+        <div class="objPair" style="display:none" id="${util.newHiddenDivId()}">
+          <b>${label.purpose}:</b><br>
+           ${field.purpose}
+        </div>#end
+      </div>
+    </td>
+  </tr>
+
+  <tr>
+    <td valign="top" width="50%">
+      <div style="margin:0.5em 0">
+        #if ($display.desc) 
+
+        <div class="objPair" style="display:none" id="${util.newHiddenDivId()}">
+          <b>${label.desc}:</b><br>
+           ${field.desc}
+        </div>#end
+      </div>
+    </td>
+
+    <td valign="top" width="50%">
+      <div style="margin:0.5em 0">
+        #if ($display.state) 
+
+        <div class="objPair" style="display:none" id="${util.newHiddenDivId()}">
+          <b>${label.state}:</b><br>
+           ${field.state}
+        </div>#end
+      </div>
+    </td>
+  </tr>
+
+  <tr>
+    <td valign="top" width="50%">
+      <div style="margin:0.5em 0">
+        #if ($display.start) 
+
+        <div class="objPair" style="display:none" id="${util.newHiddenDivId()}">
+          <b>${label.start}:</b><br>
+           ${field.start}
+        </div>#end
+      </div>
+    </td>
+
+    <td valign="top" width="50%">
+      <div style="margin:0.5em 0">
+        #if ($display.due) 
+
+        <div class="objPair" style="display:none" id="${util.newHiddenDivId()}">
+          <b>${label.due}:</b><br>
+           ${field.due}
+        </div>#end
+      </div>
+    </td>
+  </tr>
+
+  <tr>
+    <td valign="top" width="50%">
+      <div style="margin:0.5em 0">
+        #if ($display.comentarios) 
+
+        <div class="objPair" style="display:none" id="${util.newHiddenDivId()}">
+          <b>${label.comentarios}:</b><br>
+           ${field.comentarios}
+        </div>#end
+      </div>
+    </td>
+  </tr>
+</table>
+
+<div class="clear">
+  &nbsp;
+</div>]]></form-layout>
+  <pdf-layout><![CDATA[${row.start} ${field.category} ${row.end} ${row.start} #if ($display.name) ${label.name}${field.name} #end ${row.end} ${row.start} #if ($display.description) ${label.desc}${field.description} #end ${row.end} ${row.start} #if ($display.state) ${label.state}${field.state} #end #if ($display.start) ${label.start}${field.start} #end #if ($display.due) ${label.due}${field.due} #end #if ($display.purpose) ${label.purpose}${field.purpose} #end ${row.end}]]></pdf-layout>
+  <details-layout><![CDATA[**** NOT USED for IDP ****]]></details-layout>
+</obj-plan-template>
+
+
+
+
+
+
+
+
+

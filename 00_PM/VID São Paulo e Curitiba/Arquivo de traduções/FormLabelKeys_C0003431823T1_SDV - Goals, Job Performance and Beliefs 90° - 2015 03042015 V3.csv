@@ -1,0 +1,21 @@
+﻿label_key,default,en_DEBUG,en_US,es_ES,pt_BR
+SecAvaliacao,en_US,Assessment,Assessment,Evaluación,Conclusão da Avaliação
+IntroResumoPM,en_US,teste,teste,teste,teste
+CampoComentarioGestor,en_US,Manager Comments,Manager Comments,Comentarios del Supervisor,Comentários do Gestor
+IntroJobPerformance,en_US,teste,teste,teste,teste
+SecRaters,en_US,Rater List,Rater List,Lista de Calificación,Lista de Avaliadores
+RatingMetas,en_US,Achievement (Level),Achievement (Level),Logro (nivel),Pontuação Final (Nível)
+SecMetas,en_US,Operational and Individual Goals,Operational and Individual Goals,Metas Operativas e Individuales,Metas - Bloco Operacional
+SecResumo,en_US,Summary,Summary,Resumen,Resumo
+MsgRatersErroMin,en_US,"The actual number participants in the category ""[[CATEGORY]]"" is [[ACTUAL_COUNT]] and needs to be at least [[EXPECTED_COUNT]]","The actual number participants in the category ""[[CATEGORY]]"" is [[ACTUAL_COUNT]] and needs to be at least [[EXPECTED_COUNT]]","El número actual de participantes en la categoría ""[[CATEGORY]]"" es de [[ACTUAL_COUNT]] y precisa ser de por lo menos [[EXPECTED_COUNT]]","O número atual de avaliadores na categoria ""[[CATEGORY]]"" é [[ACTUAL_COUNT]] e o número mínimo esperado é de [[EXPECTED_COUNT]]"
+defaultRatingGoalsJobPerformance,en_US,I do not know how to evaluate / not applicable,I do not know how to evaluate / not applicable,No sé evaluar / no aplicable,Não sei avaliar / não aplicável
+SecFunc,en_US,Employee Information,Employee Information,Información dle empleado,Informações do Empregado
+SecCrencas,en_US,Beliefs,Beliefs,Creencias,Crenças
+CampoComentarioColaborador,en_US,Employee Comments,Employee Comments,Comentarios del empleado,Comentários do Empregado
+Auto,en_US,Self,Self,Propio,Auto-Avaliação
+IntroAvaliacao,en_US,Gestor, considerando a avaliação realizada, aponte: [[PORTLETLINK|181|6|Destaques da Avaliação]],Gestor, considerando a avaliação realizada, aponte: [[PORTLETLINK|181|6|Destaques da Avaliação]],Gestor, considerando a avaliação realizada, aponte: [[PORTLETLINK|181|6|Destaques da Avaliação]],Gestor, considerando a avaliação realizada, aponte: [[PORTLETLINK|181|6|Destaques da Avaliação]]
+IntroRater,en_US,Os avaliadores são definidos conforme hierarquia pré-cadastrada. Caso alguma alteração seja necessária você poderá fazer por aqui. Lembre-se que esta definição é muito importante para o sucesso do processo. Faça a alteração levando em consideração que as pessoas escolhidas,Os avaliadores são definidos conforme hierarquia pré-cadastrada. Caso alguma alteração seja necessária você poderá fazer por aqui. Lembre-se que esta definição é muito importante para o sucesso do processo. Faça a alteração levando em consideração que as pessoas escolhidas,Os avaliadores são definidos conforme hierarquia pré-cadastrada. Caso alguma alteração seja necessária você poderá fazer por aqui. Lembre-se que esta definição é muito importante para o sucesso do processo. Faça a alteração levando em consideração que as pessoas escolhidas,Os avaliadores são definidos conforme hierarquia pré-cadastrada. Caso alguma alteração seja necessária você poderá fazer por aqui. Lembre-se que esta definição é muito importante para o sucesso do processo. Faça a alteração levando em consideração que as pessoas escolhidas
+MsgRatersErroMax,en_US,"The actual number participants in the category ""[[CATEGORY]]"" is [[ACTUAL_COUNT]] and needs to be at most [[EXPECTED_COUNT]]","The actual number participants in the category ""[[CATEGORY]]"" is [[ACTUAL_COUNT]] and needs to be at most [[EXPECTED_COUNT]]","El número actual de participantes en la categoría ""[[CATEGORY]]"" es de [[ACTUAL_COUNT]] y precise ser como máximo de [[EXPECTED_COUNT]]","O número atual de avaliadores na categoria ""[[CATEGORY]]"" é [[ACTUAL_COUNT]] e o número máximo esperado é de [[EXPECTED_COUNT]]"
+rating,en_US,Rating,Rating,Valorización,Avaliação
+SecJobPerformance,en_US,Job Performance,Job Performance,Desempeño Laboral,Desempenho na Função
+Gestor,en_US,Evaluator Manager,Evaluator Manager,Manager Evaluador,Gestor Avaliador

@@ -1,0 +1,10 @@
+^picklistId,OptionId,minValue,maxValue,value,status,external_code,parentOptionId,en_US,pt_BR,es_ES
+length,,-1.0,-1.0,-1.0,ACTIVE,,-1,Hours,Horas,
+length,,-1.0,-1.0,-1.0,ACTIVE,,-1,Days,Dias,
+length,,-1.0,-1.0,-1.0,ACTIVE,,-1,Weeks,Semanas,
+length,,-1.0,-1.0,-1.0,ACTIVE,,-1,Months,Meses,
+length,,-1.0,-1.0,-1.0,ACTIVE,,-1,Years,Anos,
+length,,-1.0,-1.0,-1.0,ACTIVE,,-1,Classes,Classes,
+talento,,-1.0,-1.0,-1.0,ACTIVE,,-1,,Especialista,
+talento,,-1.0,-1.0,-1.0,ACTIVE,,-1,,Liderança,
+talento,,-1.0,-1.0,-1.0,ACTIVE,,-1,,Projeto,

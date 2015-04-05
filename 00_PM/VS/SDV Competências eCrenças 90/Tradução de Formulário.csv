@@ -1,0 +1,22 @@
+﻿label_key,default,en_DEBUG,en_US,es_ES,pt_BR
+SecPDI,en_US,IDP - Indivivual Development Plan,IDP - Indivivual Development Plan,IDP - Plan Individual de Desarrollo,PDI - Plano Individual de Desenvolvimento
+IntroPDI,en_US,Intro,Intro,Intro,Intro
+IntroRater,en_US,Intro,Intro,Intro,Intro
+MsgRatersErroMax,en_US,The actual number participants in category [[CATEGORY]] is [[ACTUAL_COUNT]] and needs to be at most [[EXPECTED_COUNT]],The actual number participants in category [[CATEGORY]] is [[ACTUAL_COUNT]] and needs to be at most [[EXPECTED_COUNT]],El número actual de participantes en la categoría [[CATEGORY]] es de [[ACTUAL_COUNT]] y precise ser como máximo de [[EXPECTED_COUNT]],O número atual de avaliadores na categoria [[CATEGORY]] é [[ACTUAL_COUNT]] e o número máximo esperado é de [[EXPECTED_COUNT]]
+SecJobPerformance,en_US,Job Performance,Job Performance,Desempeño Laboral,Desempenho na Função
+"IntroAvaliacao,en_US,""Based on the above assessment, comment the most prominent points. These comments serve as a basis for discussion in the evaluation committee <br>"
+"Select two strongest beliefs and to strengthen two beliefs [ [ PORTLETLINK | 161 | 14 | Evaluation Spotlight ] ]"",""Based on the above assessment, comment the most prominent points. These comments serve as a basis for discussion in the evaluation committee <br>"
+"Select two strongest beliefs and to strengthen two beliefs [ [ PORTLETLINK |161 | 14 | Evaluation Spotlight ] ]"",""Sobre la base de la evaluación anterior , comentan los puntos más destacados . Estos comentarios sirven como base para el debate en el Comité de Evaluación"
+"Seleccione dos creencias más fuertes y fortalecer dos creencias [ [ PORTLETLINK |161 | 14 | Destacados Evaluación ] ]"",""Com base na avaliação feita acima, comente os pontos de maior destaque. Estes comentários servirão de base para discussão no comitê de avaliação<br><br>"
+"Selecione duas crenças mais fortes e duas crenças à fortalecer [[PORTLETLINK|161|14|Destaques da Avaliação]]"""
+SecCrencas,en_US,Beliefs,Beliefs,Creencias,Crenças
+defaultRatingGoalsJobPerformance,en_US,I do not know how to evaluate / not applicable,I do not know how to evaluate / not applicable,No sé evaluar / no aplicable,Não sei avaliar / não se aplica
+MsgRatersErroMin,en_US,The actual number participants in category [[CATEGORY]] is [[ACTUAL_COUNT]] and needs to be at least [[EXPECTED_COUNT]],The actual number participants in category [[CATEGORY]] is [[ACTUAL_COUNT]] and needs to be at least [[EXPECTED_COUNT]],El número actual de participantes en la categoría [[CATEGORY]] es de [[ACTUAL_COUNT]] y precise ser como mínimo de [[EXPECTED_COUNT]],O número atual de avaliadores na categoria [[CATEGORY]] é [[ACTUAL_COUNT]] e o número mínimo esperado é de [[EXPECTED_COUNT]]
+SecRaters,en_US, Rater List,Rater List,Lista de Califiación,Lista de Avaliadores
+SecAvaliacao,en_US,Assessment,Assessment,Evaluación,Avaliação
+Auto,en_US,Self,Self,Proprio,Auto-Avaliação
+IntroJobPerformance,en_US,Intro,Intro,Intro,Intro
+Gestor,en_US,Evaluator Manager,Evaluator Manager,Manager Evaluador,Gestor Avaliador,
+IntroResumoPM,en_US,Intro,Intro,Intro,Intro
+SecExpectativa,en_US,Future Aspirations,Future Aspirations,Aspiraciones Futuras,Expectativa de Carreira
+"IntroExpectativa,en_US,""Intended challenges , areas and positions that would like to engage in a horizon of five years on the current drive or another Group company ."",""Intended challenges , areas and positions that would like to engage in a horizon of five years on the current drive or another Group company. [[PORTLETLINK|22|04|Future Aspirations]]"",""Destinado retos, áreas y posiciones que les gustaría participar en un horizonte de cinco años, en la unidad actual o de otra sociedad del Grupo. [[PORTLETLINK|22|04|Foco de la Evaluación]]"",""Desafios pretendidos, áreas e posições que gostaria de ocupar em um horizonte de 5 anos na unidade atual ou em uma outra empresa do Grupo. [[PORTLETLINK|22|04|Expectativa de Carreira]]"""

@@ -1,0 +1,4 @@
+﻿^picklistId,OptionId,minValue,maxValue,value,status,external_code,parentOptionId,en_US,en_DEBUG,pt_BR,es_ES
+type_LA,,-1.0,-1.0,-1.0,ACTIVE,,-1,,,Formação Específica,
+type_LA,,-1.0,-1.0,-1.0,ACTIVE,,-1,,,Projetos e Práticas do dia a dia,
+type_LA,,-1.0,-1.0,-1.0,ACTIVE,,-1,,,Orientação (mentoring),

@@ -1,0 +1,633 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE succession-data-model PUBLIC
+ "-//SuccessFactors, Inc.//DTD Succession Data Model 1.0//EN"
+ "http://svn/viewvc/svn/V4/trunk/src/com/sf/dtd/sf-form.dtd?view=co">
+<succession-data-model>
+  <description>Success Factors Standard Data Model</description>
+  <standard-element id="username" max-length="100" required="true" matrix-filter="false">
+    <label>Username</label>
+  </standard-element>
+  <standard-element id="email" max-length="100" required="true" matrix-filter="false">
+    <label>Email</label>
+  </standard-element>
+  <standard-element id="gender" max-length="2" required="true" matrix-filter="false">
+    <label>Gender</label>
+  </standard-element>
+  <standard-element id="lastName" max-length="128" required="true" matrix-filter="false">
+    <label>Last Name</label>
+  </standard-element>
+  <standard-element id="firstName" max-length="128" required="true" matrix-filter="false">
+    <label>First Name</label>
+  </standard-element>
+  <standard-element id="mi" max-length="128" required="false" matrix-filter="false">
+    <label>Middle Name</label>
+  </standard-element>
+  <standard-element id="department" max-length="128" required="true" matrix-filter="true">
+    <label>Department</label>
+  </standard-element>
+  <standard-element id="division" max-length="128" required="true" matrix-filter="true">
+    <label>Division</label>
+  </standard-element>
+  <standard-element id="location" max-length="128" required="true" matrix-filter="true">
+    <label>Location</label>
+  </standard-element>
+  <standard-element id="jobCode" max-length="128" required="true" matrix-filter="false">
+    <label>Job Code</label>
+  </standard-element>
+  <standard-element id="hireDate" required="false" matrix-filter="false">
+    <label>Hire Date</label>
+  </standard-element>
+  <standard-element id="timeZone" max-length="16" required="true" matrix-filter="false">
+    <label>Time Zone</label>
+  </standard-element>
+  <standard-element id="managerId" max-length="100" required="true" matrix-filter="false">
+    <label>Manager</label>
+  </standard-element>
+  <standard-element id="hrId" max-length="100" required="true" matrix-filter="false">
+    <label>Human Resource</label>
+  </standard-element>
+  <standard-element id="defaultLocale" max-length="100" required="false" matrix-filter="false">
+    <label>Default Locale</label>
+  </standard-element>
+  <standard-element id="minority" required="false" matrix-filter="false">
+  </standard-element>
+  <standard-element id="photo" required="false" matrix-filter="false">
+    <label>Photo</label>
+  </standard-element>
+  <standard-element id="empId" max-length="255" required="false" matrix-filter="false">
+    <label>Employee Id</label>
+  </standard-element>
+  <standard-element id="title" max-length="255" required="false" matrix-filter="false">
+    <label>Title</label>
+  </standard-element>
+  <standard-element id="businessPhone" max-length="20" required="false" matrix-filter="false">
+    <label>Business Phone</label>
+  </standard-element>
+  <standard-element id="fax" max-length="20" required="false" matrix-filter="false">
+    <label>Business Fax</label>
+  </standard-element>
+  <standard-element id="addressLine1" max-length="255" required="false" matrix-filter="false">
+    <label>Address 1</label>
+  </standard-element>
+  <standard-element id="addressLine2" max-length="255" required="false" matrix-filter="false">
+    <label>Address 2</label>
+  </standard-element>
+  <standard-element id="city" max-length="255" required="false" matrix-filter="false">
+    <label>City</label>
+  </standard-element>
+  <standard-element id="state" max-length="20" required="false" matrix-filter="false">
+    <label>State</label>
+  </standard-element>
+  <standard-element id="zipCode" max-length="10" required="false" matrix-filter="false">
+    <label>ZIP</label>
+  </standard-element>
+  <standard-element id="country" max-length="255" required="false" matrix-filter="false">
+    <label>Country</label>
+  </standard-element>
+  <standard-element id="reviewFreq" max-length="200000000" required="false" matrix-filter="false">
+    <label>Review Frequency</label>
+  </standard-element>
+  <standard-element id="lastReviewDate" required="false" matrix-filter="false">
+    <label>Last Review Date</label>
+  </standard-element>
+  <standard-element id="custom01" max-length="255" required="false" matrix-filter="false">
+    <label>Customizable Field 1</label>
+  </standard-element>
+  <standard-element id="custom02" max-length="255" required="false" matrix-filter="false">
+    <label>Customizable Field 2</label>
+  </standard-element>
+  <standard-element id="custom03" max-length="255" required="false" matrix-filter="false">
+    <label>Customizable Field 3</label>
+  </standard-element>
+  <standard-element id="custom04" max-length="255" required="false" matrix-filter="false">
+    <label>Customizable Field 4</label>
+  </standard-element>
+  <standard-element id="custom05" max-length="255" required="false" matrix-filter="false">
+    <label>Customizable Field 5</label>
+  </standard-element>
+  <standard-element id="custom06" max-length="255" required="false" matrix-filter="false">
+    <label>Customizable Field 6</label>
+  </standard-element>
+  <standard-element id="custom07" max-length="255" required="false" matrix-filter="false">
+    <label>Customizable Field 7</label>
+  </standard-element>
+  <standard-element id="custom08" max-length="255" required="false" matrix-filter="false">
+    <label>Customizable Field 8</label>
+  </standard-element>
+  <standard-element id="custom09" max-length="255" required="false" matrix-filter="false">
+    <label>Customizable Field 9</label>
+  </standard-element>
+  <standard-element id="custom10" max-length="255" required="false" matrix-filter="false">
+    <label>Customizable Field 10</label>
+  </standard-element>
+  <standard-element id="custom11" max-length="255" required="false" matrix-filter="false">
+    <label>Customizable Field 11</label>
+  </standard-element>
+  <standard-element id="custom12" max-length="255" required="false" matrix-filter="false">
+    <label>Customizable Field 12</label>
+  </standard-element>
+  <standard-element id="custom13" max-length="255" required="false" matrix-filter="false">
+    <label>Customizable Field 13</label>
+  </standard-element>
+  <standard-element id="custom14" max-length="255" required="false" matrix-filter="false">
+    <label>Customizable Field 14</label>
+  </standard-element>
+  <standard-element id="custom15" max-length="255" required="false" matrix-filter="false">
+    <label>Customizable Field 15</label>
+  </standard-element>
+  <standard-element id="matrixManager" max-length="100" required="false" matrix-filter="false">
+    <label>Matrix Manager</label>
+  </standard-element>
+  <standard-element id="customManager" max-length="100" required="false" matrix-filter="false">
+    <label>Custom Manager</label>
+  </standard-element>
+  <standard-element id="proxy" max-length="100" required="false" matrix-filter="false">
+    <label>Proxy</label>
+  </standard-element>
+  <standard-element id="secondManager" max-length="100" required="false" matrix-filter="false">
+    <label>Second Manager</label>
+  </standard-element>
+  <standard-element id="riskOfLoss" required="false" matrix-filter="false">
+    <picklist id="riskOfLoss"/>
+  </standard-element>
+  <standard-element id="impactOfLoss" required="false" matrix-filter="false">
+    <picklist id="impactOfLoss"/>
+  </standard-element>
+  <standard-element id="reasonForLeaving" required="false" matrix-filter="false">
+    <picklist id="reasonForLeaving"/>
+  </standard-element>
+  <background-element id="sysOverallPerformance" type-id="31" scale-id="Performance" feedback-type="8">
+    <label>Performance **Manager view only</label>
+    <rating-field rating-name="start-date" required="true" max-length="999" display-size="12" max-file-size-KB="1000">
+      <label>Start Date</label>
+    </rating-field>
+    <rating-field rating-name="end-date" required="true" max-length="999" display-size="12" max-file-size-KB="1000">
+      <label>End Date</label>
+    </rating-field>
+    <rating-field rating-name="name" visibility="none" max-length="2000" display-size="30" max-file-size-KB="1000">
+      <label>name</label>
+    </rating-field>
+    <rating-field rating-name="description" visibility="none" max-length="4000" display-size="30" max-file-size-KB="1000">
+      <label>description</label>
+    </rating-field>
+    <rating-field rating-name="rating" insert-rating="true" visibility="none" required="true" max-length="999" display-size="8" max-file-size-KB="1000">
+      <label>Rating</label>
+    </rating-field>
+    <rating-field rating-name="label" visibility="edit" max-length="128" display-size="30" max-file-size-KB="1000">
+      <label>Rating Label</label>
+    </rating-field>
+    <rating-field rating-name="min" visibility="none" max-length="999" display-size="8" max-file-size-KB="1000">
+      <label>Minimum Scale Rating</label>
+    </rating-field>
+    <rating-field rating-name="max" visibility="none" max-length="999" display-size="8" max-file-size-KB="1000">
+      <label>Maximum Scale Rating</label>
+    </rating-field>
+    <rating-field rating-name="source" system-generated="true" visibility="none" max-length="8" display-size="8" max-file-size-KB="1000">
+      <label>source</label>
+    </rating-field>
+    <rating-field rating-name="module" system-generated="true" visibility="none" max-length="8" display-size="8" max-file-size-KB="1000">
+      <label>module</label>
+    </rating-field>
+  </background-element>
+  <background-element id="sysOverallPotential" type-id="32" scale-id="Potential" feedback-type="7">
+    <label>Potential **Manager view only</label>
+    <rating-field rating-name="start-date" required="true" max-length="999" display-size="12" max-file-size-KB="1000">
+      <label>Start Date</label>
+    </rating-field>
+    <rating-field rating-name="end-date" required="true" max-length="999" display-size="12" max-file-size-KB="1000">
+      <label>End Date</label>
+    </rating-field>
+    <rating-field rating-name="name" visibility="none" max-length="2000" display-size="30" max-file-size-KB="1000">
+      <label>name</label>
+    </rating-field>
+    <rating-field rating-name="description" visibility="none" max-length="4000" display-size="30" max-file-size-KB="1000">
+      <label>description</label>
+    </rating-field>
+    <rating-field rating-name="rating" insert-rating="true" required="true" max-length="999" display-size="8" max-file-size-KB="1000">
+      <label>Rating</label>
+    </rating-field>
+    <rating-field rating-name="label" visibility="view" max-length="128" display-size="30" max-file-size-KB="1000">
+      <label>Rating Label</label>
+    </rating-field>
+    <rating-field rating-name="min" visibility="none" max-length="999" display-size="8" max-file-size-KB="1000">
+      <label>Minimum Scale Rating</label>
+    </rating-field>
+    <rating-field rating-name="max" visibility="none" max-length="999" display-size="8" max-file-size-KB="1000">
+      <label>Maximum Scale Rating</label>
+    </rating-field>
+    <rating-field rating-name="source" system-generated="true" visibility="none" max-length="8" display-size="8" max-file-size-KB="1000">
+      <label>source</label>
+    </rating-field>
+    <rating-field rating-name="module" system-generated="true" visibility="none" max-length="8" display-size="8" max-file-size-KB="1000">
+      <label>module</label>
+    </rating-field>
+  </background-element>
+  <background-element id="sysOverallObjective" type-id="33" scale-id="Objective" max-entries="50" feedback-type="6">
+    <label>Overall Objective</label>
+    <description/>
+    <rating-field rating-name="start-date" max-length="12" display-size="12" max-file-size-KB="1000">
+      <label>start-date</label>
+    </rating-field>
+    <rating-field rating-name="end-date" max-length="12" display-size="12" max-file-size-KB="1000">
+      <label>end-date</label>
+    </rating-field>
+    <rating-field rating-name="name" visibility="none" max-length="2000" display-size="30" max-file-size-KB="1000">
+      <label>name</label>
+    </rating-field>
+    <rating-field rating-name="description" visibility="none" max-length="4000" display-size="30" max-file-size-KB="1000">
+      <label>description</label>
+    </rating-field>
+    <rating-field rating-name="rating" insert-rating="true" max-length="8" display-size="8" max-file-size-KB="1000">
+      <label>rating</label>
+    </rating-field>
+    <rating-field rating-name="label" visibility="view" max-length="100" display-size="30" max-file-size-KB="1000">
+      <label>label</label>
+    </rating-field>
+    <rating-field rating-name="min" visibility="none" max-length="8" display-size="8" max-file-size-KB="1000">
+      <label>min</label>
+    </rating-field>
+    <rating-field rating-name="max" visibility="none" max-length="8" display-size="8" max-file-size-KB="1000">
+      <label>max</label>
+    </rating-field>
+    <rating-field rating-name="source" system-generated="true" visibility="view" max-length="8" display-size="8" max-file-size-KB="1000">
+      <label>source</label>
+    </rating-field>
+    <rating-field rating-name="module" system-generated="true" visibility="view" max-length="8" display-size="8" max-file-size-KB="1000">
+      <label>module</label>
+    </rating-field>
+  </background-element>
+  <background-element id="sysOverallCompetency" type-id="34" scale-id="Competency" max-entries="50" feedback-type="5">
+    <label>Overall Competency</label>
+    <description/>
+    <rating-field rating-name="start-date" max-length="12" display-size="12" max-file-size-KB="1000">
+      <label>start-date</label>
+    </rating-field>
+    <rating-field rating-name="end-date" max-length="12" display-size="12" max-file-size-KB="1000">
+      <label>end-date</label>
+    </rating-field>
+    <rating-field rating-name="name" visibility="none" max-length="2000" display-size="30" max-file-size-KB="1000">
+      <label>name</label>
+    </rating-field>
+    <rating-field rating-name="description" visibility="none" max-length="4000" display-size="30" max-file-size-KB="1000">
+      <label>description</label>
+    </rating-field>
+    <rating-field rating-name="rating" insert-rating="true" max-length="8" display-size="8" max-file-size-KB="1000">
+      <label>rating</label>
+    </rating-field>
+    <rating-field rating-name="label" visibility="view" max-length="100" display-size="30" max-file-size-KB="1000">
+      <label>label</label>
+    </rating-field>
+    <rating-field rating-name="min" visibility="none" max-length="8" display-size="8" max-file-size-KB="1000">
+      <label>min</label>
+    </rating-field>
+    <rating-field rating-name="max" visibility="none" max-length="8" display-size="8" max-file-size-KB="1000">
+      <label>max</label>
+    </rating-field>
+    <rating-field rating-name="source" system-generated="true" visibility="view" max-length="8" display-size="8" max-file-size-KB="1000">
+      <label>source</label>
+    </rating-field>
+    <rating-field rating-name="module" system-generated="true" visibility="view" max-length="8" display-size="8" max-file-size-KB="1000">
+      <label>module</label>
+    </rating-field>
+  </background-element>
+  <background-element id="sysScoreCardOverviewPortlet" type-id="27">
+    <label>Overview Portlet</label>
+  </background-element>
+  <background-element id="sysScoreCardContactPortlet" type-id="28">
+    <label>Contact Portlet</label>
+  </background-element>
+  <background-element id="sysScoreCardOrgProfilePortlet" type-id="29">
+    <label>Organization Profile Portlet</label>
+  </background-element>
+  <background-element id="sysScoreCardExpSnapshotPortlet" type-id="30">
+    <label>Experience Snapshot Portlet</label>
+  </background-element>
+  <background-element id="sysScoreCardPerfHistoryPortlet" type-id="31">
+    <label>Experience Snapshot Portlet</label>
+  </background-element>
+  <background-element id="sysScoreCardCompetenciesPortlet" type-id="32">
+    <label>Competencies Portlet</label>
+  </background-element>
+  <background-element id="sysScoreCardCompBehaviorPortlet" type-id="33">
+    <label>Competency Behavior Breakdown Portlet</label>
+  </background-element>
+  <background-element id="sysScoreCardObjRatingsPortlet" type-id="34">
+    <label>Objective Ratings Portlet</label>
+  </background-element>
+  <background-element id="sysScoreCardNominationPortlet" type-id="39">
+    <label>Nomination Portlet</label>
+  </background-element>
+  <background-element id="sysScoreCardSuccessorPortlet" type-id="100">
+    <label>Successor Portlet</label>
+  </background-element>
+  <!--
+    To enable keyword search on data elements, make sure that read permissions are enabled for all roles.
+  -->
+  <element-permission type="read">
+    <description>Allow everyone to read non-sensitive data</description>
+    <role-name>*</role-name>
+    <standard-element-ref refid="username"/>
+    <standard-element-ref refid="firstName"/>
+    <standard-element-ref refid="mi"/>
+    <standard-element-ref refid="lastName"/>
+    <standard-element-ref refid="title"/>
+    <standard-element-ref refid="businessPhone"/>
+    <standard-element-ref refid="fax"/>
+    <standard-element-ref refid="email"/>
+    <standard-element-ref refid="managerId"/>
+    <standard-element-ref refid="department"/>
+    <standard-element-ref refid="division"/>
+    <standard-element-ref refid="location"/>
+    <standard-element-ref refid="gender"/>
+    <standard-element-ref refid="hrId"/>
+    <standard-element-ref refid="jobCode"/>
+    <standard-element-ref refid="timeZone"/>
+    <standard-element-ref refid="hireDate"/>
+    <standard-element-ref refid="empId"/>
+    <standard-element-ref refid="addressLine1"/>
+    <standard-element-ref refid="addressLine2"/>
+    <standard-element-ref refid="city"/>
+    <standard-element-ref refid="state"/>
+    <standard-element-ref refid="zipCode"/>
+    <standard-element-ref refid="country"/>
+    <standard-element-ref refid="reviewFreq"/>
+    <standard-element-ref refid="lastReviewDate"/>
+    <standard-element-ref refid="custom01"/>
+    <standard-element-ref refid="custom02"/>
+    <standard-element-ref refid="custom03"/>
+    <standard-element-ref refid="custom04"/>
+    <standard-element-ref refid="custom05"/>
+    <standard-element-ref refid="custom06"/>
+    <standard-element-ref refid="custom07"/>
+    <standard-element-ref refid="custom08"/>
+    <standard-element-ref refid="custom09"/>
+    <standard-element-ref refid="custom10"/>
+    <standard-element-ref refid="custom11"/>
+    <standard-element-ref refid="custom12"/>
+    <standard-element-ref refid="custom13"/>
+    <standard-element-ref refid="custom14"/>
+    <standard-element-ref refid="custom15"/>
+  </element-permission>
+  <element-permission type="read">
+    <description>These are the majority of fields listed for use.  Permissions must be granted appropriately</description>
+    <role-name/>
+    <standard-element-ref refid="username"/>
+    <standard-element-ref refid="firstName"/>
+    <standard-element-ref refid="lastName"/>
+    <standard-element-ref refid="mi"/>
+    <standard-element-ref refid="gender"/>
+    <standard-element-ref refid="email"/>
+    <standard-element-ref refid="managerId"/>
+    <standard-element-ref refid="hrId"/>
+    <standard-element-ref refid="department"/>
+    <standard-element-ref refid="jobCode"/>
+    <standard-element-ref refid="division"/>
+    <standard-element-ref refid="location"/>
+    <standard-element-ref refid="timeZone"/>
+    <standard-element-ref refid="hireDate"/>
+    <standard-element-ref refid="empId"/>
+    <standard-element-ref refid="title"/>
+    <standard-element-ref refid="businessPhone"/>
+    <standard-element-ref refid="fax"/>
+    <standard-element-ref refid="addressLine1"/>
+    <standard-element-ref refid="addressLine2"/>
+    <standard-element-ref refid="city"/>
+    <standard-element-ref refid="state"/>
+    <standard-element-ref refid="zipCode"/>
+    <standard-element-ref refid="country"/>
+    <standard-element-ref refid="reviewFreq"/>
+    <standard-element-ref refid="lastReviewDate"/>
+    <standard-element-ref refid="custom01"/>
+    <standard-element-ref refid="custom02"/>
+    <standard-element-ref refid="custom03"/>
+    <standard-element-ref refid="custom04"/>
+    <standard-element-ref refid="custom05"/>
+    <standard-element-ref refid="custom06"/>
+    <standard-element-ref refid="custom07"/>
+    <standard-element-ref refid="custom08"/>
+    <standard-element-ref refid="custom09"/>
+    <standard-element-ref refid="custom10"/>
+    <standard-element-ref refid="custom11"/>
+    <standard-element-ref refid="custom12"/>
+    <standard-element-ref refid="custom13"/>
+    <standard-element-ref refid="custom14"/>
+    <standard-element-ref refid="custom15"/>
+    <background-element-ref refid="sysScoreCardOverviewPortlet"/>
+    <background-element-ref refid="sysScoreCardContactPortlet"/>
+    <background-element-ref refid="sysScoreCardOrgProfilePortlet"/>
+    <background-element-ref refid="sysScoreCardExpSnapshotPortlet"/>
+  </element-permission>
+  <element-permission type="read">
+    <description>
+      Grant read permissions to fields for all levels of management and HR rep
+    </description>
+    <role-name/>
+    <standard-element-ref refid="username"/>
+    <standard-element-ref refid="firstName"/>
+    <standard-element-ref refid="mi"/>
+    <standard-element-ref refid="lastName"/>
+    <standard-element-ref refid="title"/>
+    <standard-element-ref refid="jobCode"/>
+    <standard-element-ref refid="businessPhone"/>
+    <standard-element-ref refid="fax"/>
+    <standard-element-ref refid="email"/>
+    <standard-element-ref refid="empId"/>
+    <standard-element-ref refid="department"/>
+    <standard-element-ref refid="division"/>
+    <standard-element-ref refid="location"/>
+    <standard-element-ref refid="businessSegment"/>
+    <standard-element-ref refid="function"/>
+    <standard-element-ref refid="level"/>
+    <standard-element-ref refid="serviceDate"/>
+    <standard-element-ref refid="addressLine1"/>
+    <standard-element-ref refid="addressLine2"/>
+    <standard-element-ref refid="city"/>
+    <standard-element-ref refid="state"/>
+    <standard-element-ref refid="zipCode"/>
+    <standard-element-ref refid="country"/>
+    <standard-element-ref refid="dateOfBirth"/>
+    <standard-element-ref refid="citizenship"/>
+    <standard-element-ref refid="minority"/>
+    <standard-element-ref refid="hireDate"/>
+    <standard-element-ref refid="photo"/>
+  </element-permission>
+  <element-permission type="read">
+    <description>The roles that may read portlet and field data in portlets of Employee ScoreCard</description>
+    <role-name/>
+    <background-element-ref refid="sysScoreCardOverviewPortlet"/>
+    <background-element-ref refid="sysScoreCardContactPortlet"/>
+    <background-element-ref refid="sysScoreCardOrgProfilePortlet"/>
+    <background-element-ref refid="sysScoreCardExpSnapshotPortlet"/>
+    <background-element-ref refid="sysScoreCardPerfHistoryPortlet"/>
+    <background-element-ref refid="sysScoreCardCompetenciesPortlet"/>
+    <background-element-ref refid="sysScoreCardCompBehaviorPortlet"/>
+    <background-element-ref refid="sysScoreCardObjRatingsPortlet"/>
+    <background-element-ref refid="sysScoreCardNominationPortlet"/>
+  </element-permission>
+  <view-template id="employeeProfile" pdf-printing-enabled="true">
+    <label>Employee Profile</label>
+    <description>Employee Profile</description>
+    <edit-template id="personalInformation">
+      <label>Personal Information</label>
+      <description>Personal Information</description>
+      <standard-element-ref refid="username"/>
+      <standard-element-ref refid="firstName"/>
+      <standard-element-ref refid="mi"/>
+      <standard-element-ref refid="lastName"/>
+      <standard-element-ref refid="title"/>
+      <standard-element-ref refid="jobCode"/>
+      <standard-element-ref refid="businessPhone"/>
+      <standard-element-ref refid="fax"/>
+      <standard-element-ref refid="email"/>
+      <standard-element-ref refid="empId"/>
+      <standard-element-ref refid="department"/>
+      <standard-element-ref refid="division"/>
+      <standard-element-ref refid="location"/>
+      <standard-element-ref refid="custom01"/>
+      <standard-element-ref refid="custom02"/>
+      <standard-element-ref refid="custom03"/>
+      <standard-element-ref refid="custom04"/>
+      <standard-element-ref refid="custom05"/>
+      <standard-element-ref refid="custom06"/>
+      <standard-element-ref refid="custom07"/>
+      <standard-element-ref refid="custom08"/>
+      <standard-element-ref refid="custom09"/>
+      <standard-element-ref refid="custom10"/>
+      <standard-element-ref refid="custom11"/>
+      <standard-element-ref refid="custom12"/>
+      <standard-element-ref refid="custom13"/>
+      <standard-element-ref refid="custom14"/>
+      <standard-element-ref refid="custom15"/>
+      <standard-element-ref refid="photo"/>
+    </edit-template>
+  </view-template>
+  <view-template id="talentSearch" visibility="none" pdf-printing-enabled="true">
+    <label>Talent Search</label>
+    <description>Talent Search Fields</description>
+    <edit-template id="personalInformation">
+      <label>Personal Information</label>
+      <description>Personal Information</description>
+      <standard-element-ref refid="jobCode"/>
+      <standard-element-ref refid="department"/>
+      <standard-element-ref refid="division"/>
+      <standard-element-ref refid="location"/>
+    </edit-template>
+  </view-template>
+  <view-template id="employeeScoreCard" visibility="none" pdf-printing-enabled="true">
+    <label>View Template for Employee Scorecard</label>
+    <description>This view Template for Employee Scorecard should have only 1 edit template</description>
+    <edit-template id="scorecardEditTemplate">
+      <label>Edit Template for Employee Scorecard</label>
+      <description>Edit Template for Employee Scorecard</description>
+      <background-element-ref refid="sysScoreCardOverviewPortlet"/>
+      <background-element-ref refid="sysScoreCardContactPortlet"/>
+      <background-element-ref refid="sysScoreCardOrgProfilePortlet"/>
+      <background-element-ref refid="sysScoreCardExpSnapshotPortlet"/>
+      <background-element-ref refid="sysScoreCardPerfHistoryPortlet"/>
+      <background-element-ref refid="sysScoreCardCompetenciesPortlet"/>
+      <background-element-ref refid="sysScoreCardCompBehaviorPortlet"/>
+      <background-element-ref refid="sysScoreCardObjRatingsPortlet"/>
+      <background-element-ref refid="sysScoreCardNominationPortlet"/>
+      <background-element-ref refid="sysScoreCardSuccessorPortlet"/>
+    </edit-template>
+  </view-template>
+  <view-template id="sysUserDirectorySetting" visibility="none" pdf-printing-enabled="false">
+    <label>User Directory Setting</label>
+    <description>User Directory Setting</description>
+    <edit-template id="sysAllUserDirectorySetting">
+      <label>User Directory Setting(Entire Ordered List)</label>
+      <description>User Directory Setting(Entire Ordered List</description>
+      <standard-element-ref refid="username"/>
+      <standard-element-ref refid="firstName"/>
+      <standard-element-ref refid="lastName"/>
+      <standard-element-ref refid="mi"/>
+      <standard-element-ref refid="gender"/>
+      <standard-element-ref refid="email"/>
+      <standard-element-ref refid="managerId"/>
+      <standard-element-ref refid="hrId"/>
+      <standard-element-ref refid="division"/>
+      <standard-element-ref refid="department"/>
+      <standard-element-ref refid="location"/>
+      <standard-element-ref refid="jobCode"/>
+      <standard-element-ref refid="timeZone"/>
+      <standard-element-ref refid="hireDate"/>
+      <standard-element-ref refid="empId"/>
+      <standard-element-ref refid="title"/>
+      <standard-element-ref refid="businessPhone"/>
+      <standard-element-ref refid="fax"/>
+      <standard-element-ref refid="addressLine1"/>
+      <standard-element-ref refid="addressLine2"/>
+      <standard-element-ref refid="city"/>
+      <standard-element-ref refid="state"/>
+      <standard-element-ref refid="zipCode"/>
+      <standard-element-ref refid="country"/>
+      <standard-element-ref refid="reviewFreq"/>
+      <standard-element-ref refid="lastReviewDate"/>
+      <standard-element-ref refid="custom01"/>
+      <standard-element-ref refid="custom02"/>
+      <standard-element-ref refid="custom03"/>
+      <standard-element-ref refid="custom04"/>
+      <standard-element-ref refid="custom05"/>
+      <standard-element-ref refid="custom06"/>
+      <standard-element-ref refid="custom07"/>
+      <standard-element-ref refid="custom08"/>
+      <standard-element-ref refid="custom09"/>
+      <standard-element-ref refid="custom10"/>
+      <standard-element-ref refid="custom11"/>
+      <standard-element-ref refid="custom12"/>
+      <standard-element-ref refid="custom13"/>
+      <standard-element-ref refid="custom14"/>
+      <standard-element-ref refid="custom15"/>
+      <standard-element-ref refid="matrixManager"/>
+      <standard-element-ref refid="defaultLocale"/>
+      <standard-element-ref refid="proxy"/>
+      <standard-element-ref refid="customManager"/>
+      <standard-element-ref refid="secondManager"/>
+    </edit-template>
+    <edit-template id="sysVisibleUserDirectorySetting">
+      <label>User Directory Setting(Visible)</label>
+      <description>User Directory Setting(Visible)</description>
+      <standard-element-ref refid="username"/>
+      <standard-element-ref refid="firstName"/>
+      <standard-element-ref refid="lastName"/>
+      <standard-element-ref refid="mi"/>
+      <standard-element-ref refid="gender"/>
+      <standard-element-ref refid="email"/>
+      <standard-element-ref refid="managerId"/>
+      <standard-element-ref refid="hrId"/>
+      <standard-element-ref refid="division"/>
+      <standard-element-ref refid="department"/>
+      <standard-element-ref refid="location"/>
+      <standard-element-ref refid="jobCode"/>
+      <standard-element-ref refid="timeZone"/>
+      <standard-element-ref refid="hireDate"/>
+      <standard-element-ref refid="empId"/>
+      <standard-element-ref refid="title"/>
+      <standard-element-ref refid="businessPhone"/>
+      <standard-element-ref refid="fax"/>
+      <standard-element-ref refid="addressLine1"/>
+      <standard-element-ref refid="addressLine2"/>
+      <standard-element-ref refid="city"/>
+      <standard-element-ref refid="state"/>
+      <standard-element-ref refid="zipCode"/>
+      <standard-element-ref refid="country"/>
+      <standard-element-ref refid="reviewFreq"/>
+      <standard-element-ref refid="lastReviewDate"/>
+      <standard-element-ref refid="custom01"/>
+      <standard-element-ref refid="custom02"/>
+      <standard-element-ref refid="custom03"/>
+      <standard-element-ref refid="custom04"/>
+      <standard-element-ref refid="custom05"/>
+      <standard-element-ref refid="custom06"/>
+      <standard-element-ref refid="custom07"/>
+      <standard-element-ref refid="custom08"/>
+      <standard-element-ref refid="custom09"/>
+      <standard-element-ref refid="custom10"/>
+      <standard-element-ref refid="custom11"/>
+      <standard-element-ref refid="custom12"/>
+      <standard-element-ref refid="custom13"/>
+      <standard-element-ref refid="custom14"/>
+      <standard-element-ref refid="custom15"/>
+    </edit-template>
+  </view-template>
+</succession-data-model>

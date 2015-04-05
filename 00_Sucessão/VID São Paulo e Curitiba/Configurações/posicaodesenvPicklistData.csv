@@ -1,0 +1,3 @@
+^picklistId,OptionId,minValue,maxValue,value,status,external_code,parentOptionId,en_US,zh_CN,en_GB,tr_TR,en_DEBUG,pt_BR,es_ES,fr_FR,ar_SA
+posicaodesenv,,1,1,-1,ACTIVE,null,-1,Yes,,,,Yes,Sim,,,
+posicaodesenv,,2,2,-1,ACTIVE,null,-1,No,,,,No,Não,,,

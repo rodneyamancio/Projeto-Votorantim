@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE obj-plan-template PUBLIC "-//SuccessFactors, Inc.//DTD Objective Template 4.0//EN" "objective-template_4_0.dtd">
+<obj-plan-template spellchk="true" new-obj-share-status-public="true" instructions-viewdefault="off" alerts-viewdefault="off" cascade-parent-viewdefault="off" cascade-child-viewdefault="off" pager-max-objs-per-page="9999" pager-max-page-links="0" pager-max-children-per-parent="-1" display-alignment-format="goals" more-details-child-format="goal-plan" share-confirm="false" unshare-confirm="false" allow-group-goal="false" goal-tree-link="false" expand-collapse-categories="false" use-text-for-privacy="false" cws-people-role="true" overwrite-target-population="true" swap-goal-link="false" learning-activity-deep-link="true" show-total-goalscore="false" show-goal-id="false">
+  <obj-plan-id>4006</obj-plan-id>
+  <obj-plan-type>LearningActivity</obj-plan-type>
+  <obj-plan-name>Ações de Aprendizagem Curitiba</obj-plan-name>
+  <obj-plan-name lang="en_US">Ações de Aprendizagem Curitiba</obj-plan-name>
+  <obj-plan-name lang="pt_BR">Ações de Aprendizagem Curitiba</obj-plan-name>
+  <obj-plan-name lang="es-ES">Acciones de Aprendizaje</obj-plan-name>
+  <obj-plan-desc><![CDATA[]]></obj-plan-desc>
+  <obj-plan-lastmodified>7/23/12 10:50 AM</obj-plan-lastmodified>
+  <text-replacement for="Instructions">
+    <text lang="pt_BR"><![CDATA[]]></text>
+  </text-replacement>
+  <obj-library name="Catálogo de Treinamento" id="9001">
+    <field-mapping src-library-field-id="entryName" dst-field-id="name"/>
+    <field-mapping src-library-field-id="fields.field1" dst-field-id="description"/>
+    <field-mapping src-library-field-id="activityType" dst-field-id="type"/>
+  </obj-library>
+  <field-definition id="name" type="text" required="true" detail="false" viewdefault="on" showlabel="false" reportable="field1" field-show-coaching-advisor="false" cascade-update="push-down">
+    <field-label lang="en_US">Name</field-label>
+    <field-label lang="pt_BR">Nome</field-label>
+    <field-label lang="es-ES">Nombre</field-label>
+  </field-definition>
+  <field-definition id="description" type="textarea" required="true" detail="false" viewdefault="on" showlabel="false" reportable="field2" field-show-coaching-advisor="false" cascade-update="push-down">
+    <field-label lang="en_US">Description</field-label>
+    <field-label lang="pt_BR">Descrição</field-label>
+    <field-label lang="es-ES">Descripción</field-label>
+  </field-definition>
+  <field-definition id="type" type="text" required="true" detail="false" viewdefault="on" showlabel="false" reportable="field3" field-show-coaching-advisor="false" cascade-update="push-down">
+    <field-label lang="en_US">Type</field-label>
+    <field-label lang="pt_BR">Tipo</field-label>
+    <field-label lang="es-ES">Tipo</field-label>
+      </field-definition>
+  <field-definition id="development_focus" type="text" required="true" detail="true" viewdefault="on" showlabel="false" reportable="field5" field-show-coaching-advisor="false" cascade-update="push-down">
+    <field-label lang="en_US">Development Focus</field-label>
+    <field-label lang="pt_BR">Foco de Desenvolvimento</field-label>
+  </field-definition>
+  <field-definition id="state" type="enum" required="false" detail="false" viewdefault="on" showlabel="false" reportable="field4" field-show-coaching-advisor="false" cascade-update="push-down">
+    <field-label lang="en_US">Status</field-label>
+    <field-label lang="pt_BR">Status</field-label>
+    <field-label lang="es-ES">Status</field-label>
+    <enum-value value="Not Started" style="background:white;color:black;">
+      <enum-label lang="en_US">Not Started</enum-label>
+      <enum-label lang="pt_BR">Não Iniciado</enum-label>
+      <enum-label lang="es-ES">No Iniciado</enum-label>
+    </enum-value>
+    <enum-value value="On Track" style="background:yellow;color:black;">
+      <enum-label lang="en_US">On Track</enum-label>
+      <enum-label lang="pt_BR">Em Andamento</enum-label>
+      <enum-label lang="es-ES">En Curso</enum-label>
+    </enum-value>
+    <enum-value value="Behind" style="background:red;color:black;">
+      <enum-label lang="en_US">Cancelled</enum-label>
+      <enum-label lang="pt_BR">Cancelado</enum-label>
+      <enum-label lang="es-ES">Cancelado</enum-label>
+    </enum-value>
+    <enum-value value="Completed" style="background:green;color:white;">
+      <enum-label lang="en_US">Completed</enum-label>
+      <enum-label lang="pt_BR">Concluído</enum-label>
+      <enum-label lang="es-ES">Terminado</enum-label>
+    </enum-value>
+  </field-definition>
+  <field-definition id="start" type="date" required="true" detail="true" viewdefault="on" showlabel="false" field-show-coaching-advisor="false" cascade-update="push-down">
+    <field-label lang="en_US">Start Date</field-label>
+    <field-label lang="pt_BR">Data de Início</field-label>
+    <field-label lang="es-ES">Fecha de Início</field-label>
+  </field-definition>
+  <field-definition id="due" type="date" required="false" detail="true" viewdefault="on" showlabel="false" field-show-coaching-advisor="false" cascade-update="push-down">
+    <field-label lang="en_US">Due Date</field-label>
+    <field-label lang="pt_BR">Data de Término</field-label>
+    <field-label lang="es-ES">Fecha de Fin</field-label>
+  </field-definition>
+  <field-definition id="results" type="textarea" required="false" detail="false" viewdefault="on" showlabel="false" field-show-coaching-advisor="false" cascade-update="push-down">
+    <field-label lang="en_US">Results</field-label>
+    <field-label lang="pt_BR">Resultados</field-label>
+    <field-label lang="es-ES">Resultados</field-label>
+  </field-definition>
+  <permission for="create">
+    <description><![CDATA[Only the employee and manager may create goals in a user's plan.]]></description>
+    <role-name><![CDATA[E]]></role-name>
+    <role-name><![CDATA[EM]]></role-name>
+    <role-name><![CDATA[EX]]></role-name>
+      </permission>
+  <permission for="delete">
+    <description><![CDATA[Only the employee may delete goals in his/her own plan.]]></description>
+    <role-name><![CDATA[E]]></role-name>
+    <role-name><![CDATA[EM]]></role-name>
+    <role-name><![CDATA[EX]]></role-name>
+      </permission>
+  <permission for="move">
+    <description><![CDATA[N/A for learning activities for build 0602.]]></description>
+  </permission>
+  <permission for="private-access">
+    <description><![CDATA[N/A for learning activities for build 0602.]]></description>
+  </permission>
+  <permission for="share">
+    <description><![CDATA[N/A for learning activities for build 0602.]]></description>
+  </permission>
+  <field-permission type="read">
+    <description><![CDATA[Everyone may read the following fields]]></description>
+    <role-name><![CDATA[E]]></role-name>
+    <role-name><![CDATA[EM]]></role-name>
+    <role-name><![CDATA[EX]]></role-name>
+    <role-name><![CDATA[EH]]></role-name>
+    <role-name><![CDATA[F]]></role-name>
+    <field refid="name"/>
+    <field refid="description"/>
+    <field refid="type"/>
+    <field refid="state"/>
+    <field refid="start"/>
+    <field refid="due"/>
+    <field refid="results"/>
+  </field-permission>
+  <field-permission type="write">
+    <description><![CDATA[Theowner and manager may write to the following fields]]></description>
+    <role-name><![CDATA[E]]></role-name>
+    <role-name><![CDATA[EM]]></role-name>
+    <role-name><![CDATA[EX]]></role-name>
+    <role-name><![CDATA[F]]></role-name>
+    <field refid="name"/>
+    <field refid="description"/>
+    <field refid="type"/>
+    <field refid="state"/>
+    <field refid="start"/>
+    <field refid="due"/>
+    <field refid="results"/>
+  </field-permission>
+  <plan-layout>
+    <column weight="50.0">
+      <field refid="name"/>
+    </column>
+    <column weight="10.0">
+      <field refid="type"/>
+      </column>
+    <column weight="10.0">
+      <field refid="state"/>
+    </column>
+    <column weight="10.0">
+      <field refid="start"/>
+    </column>
+    <column weight="10.0">
+      <field refid="due"/>
+    </column>
+    <column weight="10.0">
+      <field refid="results"/>
+    </column>
+  </plan-layout>
+  <form-layout><![CDATA[## Consider displaying goal category (if applicable) if mapping goals across all categories in one objective section TBD]]></form-layout>
+  <pdf-layout><![CDATA[Not Needed]]></pdf-layout>
+  <details-layout><![CDATA[## Not used in TGMv10 framework.]]></details-layout>
+</obj-plan-template>
+
+
+
+
+
+
+

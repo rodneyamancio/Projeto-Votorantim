@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE obj-plan-template PUBLIC "-//SuccessFactors, Inc.//DTD Objective Template 4.0//EN" "objective-template_4_0.dtd">
+<obj-plan-template spellchk="false" new-obj-share-status-public="true" instructions-viewdefault="on" alerts-viewdefault="on" cascade-parent-viewdefault="off" cascade-child-viewdefault="off" pager-max-objs-per-page="9999" pager-max-page-links="0" pager-max-children-per-parent="-1" display-alignment-format="goals" more-details-child-format="goal-plan" share-confirm="true" unshare-confirm="true" allow-group-goal="false" goal-tree-link="false" expand-collapse-categories="false" use-text-for-privacy="false" cws-people-role="true" overwrite-target-population="true" swap-goal-link="false" learning-activity-deep-link="true" show-total-goalscore="false" show-goal-id="false">
+  <obj-plan-id>2002</obj-plan-id>
+  <obj-plan-type>Development</obj-plan-type>
+  <obj-plan-name>Job</obj-plan-name>
+  <obj-plan-name lang="en_US">Job</obj-plan-name>
+  <obj-plan-name lang="pt_BR">Job</obj-plan-name>
+  <obj-plan-desc><![CDATA[Development Goals]]></obj-plan-desc>
+  <obj-plan-lastmodified>3/18/14 9:41 AM</obj-plan-lastmodified>
+  <obj-plan-start>01/01/2014</obj-plan-start>
+  <obj-plan-due>12/31/2014</obj-plan-due>
+  <text-replacement for="Instructions">
+    <text lang="pt_BR"><![CDATA[]]></text>
+  </text-replacement>
+  <text-replacement for="add-goal-to-form">
+    <text lang="en_US"><![CDATA[Add New Job]]></text>
+    <text lang="pt_BR"><![CDATA[Adicionar Novo Job]]></text>
+  </text-replacement>
+  <category id="Goals">
+    <category-name>Job</category-name>
+    <category-name lang="en_US">Job</category-name>
+    <category-name lang="pt_BR">Job</category-name>
+  </category>
+  <field-definition id="name" type="textarea" required="true" detail="false" viewdefault="on" showlabel="false" field-show-coaching-advisor="false" cascade-update="push-down">
+    <field-label lang="en_US">Name</field-label>
+    <field-label lang="pt_BR">Nome</field-label>
+  </field-definition>
+  <field-definition id="metric" type="textarea" required="true" detail="false" viewdefault="on" showlabel="false" field-show-coaching-advisor="false" cascade-update="push-down">
+    <field-label lang="en_US">Description</field-label>
+    <field-label lang="pt_BR">Descrição</field-label>
+  </field-definition>
+  <field-definition id="rating" type="number" required="true" detail="false" viewdefault="on" showlabel="false" display="number" field-show-coaching-advisor="false" cascade-update="regular">
+    <field-label lang="en_US">Rating</field-label>
+    <field-label lang="pt_BR">Nota</field-label>
+  </field-definition>
+  <obj-plan-states>
+    <obj-plan-state id="aberto">
+      <state-label lang="en_US">Open</state-label>
+      <state-label lang="pt_BR">Aberto</state-label>
+      <action-label lang="en_US">Open</action-label>
+      <action-label lang="pt_BR">Aberto</action-label>
+      <permission for="change-state">
+        <description><![CDATA[]]></description>
+        <target-state><![CDATA[fechado]]></target-state>
+      </permission>
+      <permission for="create">
+        <description><![CDATA[Onlythe employee, manager and form reviewers may create goals in a user's plan.]]></description>
+        <role-name><![CDATA[EM]]></role-name>
+      </permission>
+      <permission for="delete">
+        <description><![CDATA[Onlythe employee may delete goals in his/her own plan.]]></description>
+        <role-name><![CDATA[EM]]></role-name>
+      </permission>
+      <permission for="share">
+        <description><![CDATA[Onlythe employee may share and unshare goals in his/her own plan.]]></description>
+        <role-name><![CDATA[]]></role-name>
+      </permission>
+      <permission for="move">
+        <description><![CDATA[Only the employee may move and indent goals in his/her own plan.]]></description>
+        <role-name><![CDATA[]]></role-name>
+      </permission>
+      <permission for="private-access">
+        <description><![CDATA[Employees and their managers up the hierarchy may view unshared/private goals. Parents of cascaded private goals can see the children]]></description>
+      </permission>
+      <field-permission type="read">
+        <description><![CDATA[Everyone may read name and metric]]></description>
+        <role-name><![CDATA[E]]></role-name>
+        <role-name><![CDATA[EM]]></role-name>
+        <role-name><![CDATA[F]]></role-name>
+        <field refid="name"/>
+        <field refid="metric"/>
+      </field-permission>
+      <field-permission type="write">
+        <description><![CDATA[Theowner, manager and form reviewer may write to all fields]]></description>
+        <role-name><![CDATA[EM]]></role-name>
+        <role-name><![CDATA[F]]></role-name>
+        <field refid="name"/>
+        <field refid="metric"/>
+      </field-permission>
+    </obj-plan-state>
+    <obj-plan-state id="fechado" default="true">
+      <state-label lang="en_US">Closed</state-label>
+      <state-label lang="pt_BR">Fechado</state-label>
+      <action-label lang="en_US">Closed</action-label>
+      <action-label lang="pt_BR">Fechado</action-label>
+      <permission for="change-state">
+        <description><![CDATA[]]></description>
+        <target-state><![CDATA[aberto]]></target-state>
+      </permission>
+      <permission for="create">
+        <description><![CDATA[Onlythe employee, manager and form reviewers may create goals in a user's plan.]]></description>
+      </permission>
+      <permission for="delete">
+        <description><![CDATA[Onlythe employee may delete goals in his/her own plan.]]></description>
+      </permission>
+      <permission for="share">
+        <description><![CDATA[Onlythe employee may share and unshare goals in his/her own plan.]]></description>
+        <role-name><![CDATA[]]></role-name>
+      </permission>
+      <permission for="move">
+        <description><![CDATA[Only the employee may move and indent goals in his/her own plan.]]></description>
+        <role-name><![CDATA[]]></role-name>
+      </permission>
+      <permission for="private-access">
+        <description><![CDATA[Employees and their managers up the hierarchy may view unshared/private goals. Parents of cascaded private goals can see the children]]></description>
+      </permission>
+      <field-permission type="read">
+        <description><![CDATA[Everyone may read name and metric]]></description>
+        <role-name><![CDATA[*]]></role-name>
+        <field refid="name"/>
+        <field refid="metric"/>
+      </field-permission>
+    </obj-plan-state>
+  </obj-plan-states>
+  <plan-layout>
+    <column weight="40.0">
+      <field refid="name"/>
+    </column>
+    <column weight="30.0">
+      <field refid="metric"/>
+    </column>
+  </plan-layout>
+  <form-layout><![CDATA[#set ($group = "name") 
+
+<table width="100%" cellspacing="0" cellpadding="0">
+  <tr>
+    <td valign="top" width="50%">#if ($display.name) <b>${label.name}:</b><br>
+     ${field.name} #end</td>
+
+    <td>&nbsp;&nbsp;&nbsp;</td>
+
+    <td valign="top" width="50%">#if ($display.metric) <b>${label.metric}:</b><br>
+     ${field.metric} #end</td>
+  </tr>
+</table>## turn off grouping for subsequent fields #set ($group = "") 
+
+<div class="clear">
+  &nbsp;
+</div>]]></form-layout>
+  <pdf-layout><![CDATA[${row.start} ${field.category} ${row.end} ${row.start} #if ($display.name) ${label.name}${field.name} #end ${row.end} ${row.start} #if ($display.description) ${label.desc}${field.description} #end ${row.end} ${row.start} #if ($display.state) ${label.state}${field.state} #end #if ($display.start) ${label.start}${field.start} #end #if ($display.due) ${label.due}${field.due} #end #if ($display.purpose) ${label.purpose}${field.purpose} #end ${row.end}]]></pdf-layout>
+  <details-layout><![CDATA[**** NOT USED for IDP ****]]></details-layout>
+</obj-plan-template>
